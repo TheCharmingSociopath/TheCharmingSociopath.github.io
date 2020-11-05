@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TIL and Notes
+title: TIL and Docs
 weight: 4
 permalink: /notes/
 ---
