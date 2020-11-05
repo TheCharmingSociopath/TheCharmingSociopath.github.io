@@ -1,0 +1,16 @@
+- name: AICrowd Classrooms
+  tools: [Django, Python, HTML, CSS, YAML]
+  description: Developed this for the users to create new challenges on aicrowd.com
+  external_url: https://classroom.aicrowd.com/
+
+- name: Mario in python
+  tools: [Python]
+  description: Wrote a replica of Super Mario Bros. in python.
+  image: /assets/images/projects/mario.png
+  external_url: https://github.com/TheCharmingSociopath/mario_using_python
+
+- name: Shell in C
+  tools: [C, Shell, Linux]
+  image: /assets/images/projects/shell.png
+  description: Developed a terminal based shell using C that supports piping, I/O redirection, signal handline, background and foreground process management, etc.
+  external_url: https://github.com/TheCharmingSociopath/C-Shell

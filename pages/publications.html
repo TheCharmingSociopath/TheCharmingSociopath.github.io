@@ -1,0 +1,17 @@
+---
+layout: default
+title: Publications
+weight: 4
+permalink: /publications/
+---
+<div class="col mt-4">
+    {% for item in site.data.publications %}
+    <div class="content">
+        <h2>{{ item.title }}</h2>
+        <h4><b>Authors</b>: {{ item.authors }} </h4>
+        <h6 class="date">{{ item.date }} </h6>
+        <p><b>Abstract: </b> {{ item.abstract }}</p>
+    </div>
+    <hr />
+    {% endfor %}
+</div>
