@@ -1,21 +1,11 @@
-### Blog posts yaml
-```yaml
----
-title: How to undo your git failure?
-tags: [External Post, Git]
-style: fill
-color: warning
-description: Using `git reflog` and `git reset` to save your code.
-external_url: https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74
----
-```
-### Projects yaml
-```yaml
----
-name: PlaceHolder Project
-tools: [nothing, important]
-image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-external_url: https://www.google.com
----
-```
+## Introduction
+
+This was developed as a portfolio website, ideal for blogging projects as well as hosting notes.
+The theme (most of the CSS) was taken from: [YoussefRaafatNasry/portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) and the LICENCE has been attached as is. 
+
+## How to set up
+
+- Install ruby
+- `bundle install`
+- `bundle exec jekyll serve`
+- Navigate to `http://127.0.0.1:4000/` and check out the page.
