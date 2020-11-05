@@ -14,3 +14,9 @@
   image: /assets/images/projects/shell.png
   description: Developed a terminal based shell using C that supports piping, I/O redirection, signal handline, background and foreground process management, etc.
   external_url: https://github.com/TheCharmingSociopath/C-Shell
+
+- name: Portfolio Website
+  tools: [HTML, CSS, Jekyll, Markdown, YAML]
+  description: This is a portfolio website with Latex support ideal for people into both theory (research) and coding or development. Check README for details.
+  external_url: https://github.com/TheCharmingSociopath/TheCharmingSociopath.github.io
+  image: /assets/images/projects/portfolio.png
