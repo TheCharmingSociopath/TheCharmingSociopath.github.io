@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light">
 
-  <a class="navbar-brand" href="{{ site.baseurl }}/"><h4><b>{{ site.title }}</b></h4></a>
+  <a class="navbar-brand" href="{{ site.url | append: site.baseurl }}"><h4><b>{{ site.title }}</b></h4></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -54,8 +54,7 @@
         <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
 
       {% endfor %}
-      {%- assign resume_url = site.url | append: site.resume_path -%}
-      <a class="nav-item nav-link" href="{{ resume_url }}"> Resume </a>
+      <a class="nav-item nav-link" href="{{ site.url | append: site.baseurl | append: site.resume_path }}"> Resume </a>
 
     </div>
   </div>

@@ -2,9 +2,10 @@
 title               : Aditya Morolia
 description         : >-
                       Hi, I'm Aditya Morolia. <br/>
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : "~aditya.morolia/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+url                 : "https://researchweb.iiit.ac.in/"
 repository          : TheCharmingSociopath/TheCharmingSociopath.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-resume_path         : /assets/resume.pdf
+resume_path         : assets/resume.pdf
 
 ### Plugins ###
 plugins:
