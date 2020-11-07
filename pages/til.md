@@ -2,10 +2,10 @@
 layout: default
 title: TIL and Docs
 weight: 4
-permalink: /notes/
+permalink: /TIL/
 ---
 
-This is a space for all all the notes that I take as I keep reading through literature on quantum computing and other things. Also some random scratch space. These might be helpful for someone getting started with Quantum computing, complexity theory or some other stuff that I've already been through. 
+This is a space for all the things I love or find interesting. Also some random scratch space. Stuff here might be helpful for someone getting started with Quantum computing, complexity theory or some other stuff that I've already been through. 
 
 ### Quantum Computing
 - This began as a honours project report, but then I kept jotting down stuff. Maybe helpful for beginners. This contains theoretical introduction to QC, and some basic Qiskit I learned back then, along with some random notes and research paper summaries.

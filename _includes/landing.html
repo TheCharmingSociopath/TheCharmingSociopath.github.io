@@ -3,7 +3,7 @@
 
     <h4 class="wow animated slideInDown" data-wow-delay=".15s">{{ site.description }}</h4>
     <div class="wow animated zoomIn" data-wow-delay=".15s" style="margin-top: 12%;">
-      {% capture my_include %}{% include about/about.md %}{% endcapture %}
+      {% capture my_include %}{% include about.md %}{% endcapture %}
       {{ my_include | markdownify }}
     </div>
     <div style="margin-top: 12%;">
