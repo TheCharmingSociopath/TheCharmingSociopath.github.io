@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TIL and Docs
+title: Academia
 weight: 4
 permalink: /TIL/
 ---
