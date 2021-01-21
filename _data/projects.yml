@@ -29,6 +29,6 @@
 
 - name: C-- Compiler
   tools: [C++, Antlr, Java]
-  description: Compiler for a toy language C-- inspired by C and Decaf
+  description: Compiler for a toy language C-- inspired by C and Decaf. Includes a parser made using Antlr, custom syntax tree contruction using Visitor Design Pattern, and LLVM IR generation.
   image: /assets/images/projects/compiler.png
   external_url: https://github.com/TheCharmingSociopath/C--Compiler
