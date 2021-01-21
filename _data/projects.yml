@@ -27,3 +27,8 @@
   image: /assets/images/projects/mario.png
   external_url: https://github.com/TheCharmingSociopath/mario_using_python
 
+- name: C-- Compiler
+  tools: [C++, Antlr, Java]
+  description: Compiler for a toy language C-- inspired by C and Decaf
+  image: /assets/images/projects/compiler.png
+  external_url: https://github.com/TheCharmingSociopath/C--Compiler
