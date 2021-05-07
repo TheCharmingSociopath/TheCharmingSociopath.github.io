@@ -2,23 +2,26 @@
   from: August 2017
   to: Present
   description: >
-               I'm a CND student at IIIT Hyderabad. I'm working as an undergrad researcher on Quantum Computing under Dr. Indranil Chakrabarty. <br/>
-               <b> CGPA: 8.5 </b> <br/>
-               I've headed the college E-Cell Corporate relations team for a year, Literary Club for 2 years, and Felicity (the annual techno-cultural fest of IIIT) marketing team for 1 year. <br/>
-               I've volunteered for TEDx Hyderabad events twice, and had a chance to work with the amazing team there. <br/>
+               - <b> CGPA: 8.54 </b> <br/>
+               - I'm a CND student at IIIT Hyderabad. I'm working as an undergrad researcher on Quantum Computing under Dr. Indranil Chakrabarty. <br/>
+               - I've headed the college E-Cell Corporate relations team for a year, Literary Club for 2 years, and Felicity (the annual techno-cultural fest of IIIT) marketing team for 1 year. <br/>
+               - I've volunteered for TEDx Hyderabad events twice, and had a chance to work with the amazing team there. <br/>
 
 - title: Technical Staff, AICrowd.com
   from: April 2020 
   to: July 2020
   description: >
-               Built a simulator for the purpose of hypothesis testing on our reputation and ranking system in Python, then added features on the basis of the observations to the Rails web app <br/>
-               After winning the campus Reinforcement learning challenge DroneRL, I was responsible for creating a new in house RL challenges. <br/>
-               Developed a Django web app named <a src="https://classroom.aicrowd.com/"> AICrowd classrooms </a>
+               - Built a simulator for the purpose of hypothesis testing on our reputation and ranking system in Python, then added features on the basis of the observations to the Rails web app <br/>
+               - After winning the campus Reinforcement learning challenge DroneRL, I was responsible for creating a new in house RL challenges. <br/>
+               - Developed a Django web app named <a src="https://classroom.aicrowd.com/"> AICrowd classrooms </a>
 
-- title: Teaching Assistant for Linear Algebra, IIIT Hyderabad
+- title: Teaching Assistant, IIIT Hyderabad
   from: January 2020 
   to: Present
-  description: I've been the TA for LA for 2 semesters. My responsibilities include conducting tutorials, making and correting assignments and exams, working with the students on their projects, etc.
+  description: >
+                - Linear Algebra, Spring 2020 (UG1) and Monsoon 2020 (H2, PG1) <br/>
+                - Introduction to Quantum Information and Computation, Spring 2021 (H2, Elective) <br/>
+                - My responsibilities include conducting tutorials, making and correting assignments and exams, working with the students on their projects, etc. <br/>
 
 - title: Research Intern at ISB Mohali
   from: June 2019

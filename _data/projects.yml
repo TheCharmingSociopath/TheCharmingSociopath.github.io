@@ -9,6 +9,18 @@
   external_url: https://github.com/TheCharmingSociopath/TheCharmingSociopath.github.io
   image: /assets/images/projects/portfolio.png
 
+- name: Distributed MapReduce
+  tools: [C++, Boost, MPI]
+  description: C++ implementation of the MapReduce library to handle MapReduce tasks on a distributed system. This library handles worker failures and performs load balancing.
+  external_url: https://github.com/TheCharmingSociopath/MapReduce
+  image: /assets/images/projects/mapreduce.jpg
+
+- name: COVID-19 Vaccination Management
+  tools: [Django, Python, HTML, CSS, JavaScript]
+  description: Wrote a Django WebApp to manage the complete vaccination pipeline. Includes an algorithm to automatically distribute vaccines to states and districts on the basis of Population, number of vaccination centres and rate of change of number of active cases.
+  external_url: https://github.com/TheCharmingSociopath/COVID-19-vaccination-management
+  image: /assets/images/projects/vaccination.jpeg
+
 - name: Face classification and Verification
   tools: [Sklearn, Machine learning]
   description: Comparing various methods for face classification and verification on different datasets.
