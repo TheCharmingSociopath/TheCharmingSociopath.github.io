@@ -43,7 +43,8 @@
       </p>
     </div>
     <div class="card-footer {{ text_style }}">
-      {{ post.date | date_to_long_string }}
+      <span> Written: {{ post.date | date_to_long_string }} </span>
+      <span style="float: right;"> Last update: {{ post.updated | date_to_long_string }} </span>
     </div>
   </a>
 </div>
