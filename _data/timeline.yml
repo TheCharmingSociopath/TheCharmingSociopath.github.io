@@ -2,13 +2,19 @@
   from: August 2017
   to: Present
   description: >
-               - <b> CGPA: 8.66 </b> <br/>
+               - <b> CGPA: 8.65 </b> <br/>
                - I'm a CND student at IIIT Hyderabad. I'm working as an undergrad researcher on Quantum Computing under Dr. Indranil Chakrabarty. <br/>
                - I've headed the college E-Cell Corporate relations team for a year, Literary Club for 2 years, and Felicity (the annual techno-cultural fest of IIIT) marketing team for 1 year. <br/>
                - I've volunteered for TEDx Hyderabad events twice, and had a chance to work with the amazing team there. <br/>
 
+- title: Summer Employee, Goldman Sachs
+  from: April 2020
+  to: Present
+  description: >
+               - I'm working on the SecDB Architecture team.
+
 - title: Technical Staff, AICrowd.com
-  from: April 2020 
+  from: April 2020
   to: July 2020
   description: >
                - Built a simulator for the purpose of hypothesis testing on our reputation and ranking system in Python, then added features on the basis of the observations to the Rails web app <br/>
@@ -16,7 +22,7 @@
                - Developed a Django web app named <a src="https://classroom.aicrowd.com/"> AICrowd classrooms </a>
 
 - title: Teaching Assistant, IIIT Hyderabad
-  from: January 2020 
+  from: January 2020
   to: Present
   description: >
                 - Linear Algebra, Spring 2020 (UG1) and Monsoon 2020 (H2, PG1) <br/>
