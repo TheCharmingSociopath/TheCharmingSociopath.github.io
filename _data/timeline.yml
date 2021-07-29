@@ -1,45 +1,51 @@
 - title: CND Student, IIIT Hyderabad
   from: August 2017
   to: Present
-  description: >
-               - Finished coursework for B.Tech in May, 2021 with CGPA: 8.65 <br/>
-               - I'm working on Quantum Information under Prof. Indranil Chakrabarty, and on Quantum algorithms for Linear Algebra and ML along with Prof. Shantanav Chakrabarty for my MS Thesis. <br/>
-               - I've headed the college E-Cell Corporate relations team for a year, Literary Club for 2 years, and Felicity (the annual techno-cultural fest of IIIT) marketing team for 1 year. <br/>
-               - I've volunteered for TEDx Hyderabad events twice, and had a chance to work with the amazing team there. <br/>
+  description:
+    - "Finished coursework for B.Tech in May, 2021 with CGPA: 8.65"
+    - "Working on Quantum Information under Prof. Indranil Chakrabarty"
+    - "Working on Quantum algorithms for Linear Algebra and ML along with Prof. Shantanav Chakrabarty for my MS Thesis."
+    - "I've headed the college E-Cell Corporate relations team for a year, Literary Club for 2 years, and Felicity (the annual techno-cultural fest of IIIT) marketing team for 1 year."
+    - "Active member of the Theory Reading Group, IIIT-H since it's start"
+    - "I've volunteered for TEDx Hyderabad events twice, and had a chance to work with the amazing team there."
 
 - title: Summer Analyst, Goldman Sachs
   from: April 2020
   to: Present
-  description: >
-               - I'm working on SecDB Architecture in the Saral Trading team.
+  description:
+    - I'm working on SecDB Architecture in the Saral Trading team.
 
 - title: Technical Staff, AICrowd.com
   from: April 2020
   to: July 2020
-  description: >
-               - Built a simulator for the purpose of hypothesis testing on our reputation and ranking system in Python, then added features on the basis of the observations to the Rails web app <br/>
-               - After winning the campus Reinforcement learning challenge DroneRL, I was responsible for creating a new in house RL challenges. <br/>
-               - Developed a Django web app named <a src="https://classroom.aicrowd.com/"> AICrowd classrooms </a>
+  description:
+    - Built a simulator for the purpose of hypothesis testing on our reputation and ranking system in Python, then added features on the basis of the observations to the Rails web app
+    - After winning the campus Reinforcement learning challenge DroneRL, I was responsible for creating a new in house RL challenges.
+    - Developed a Django web app named <a src="https://classroom.aicrowd.com/"> AICrowd classrooms </a>
 
 - title: Teaching Assistant, IIIT Hyderabad
   from: January 2020
   to: Present
-  description: >
-                - Linear Algebra, Spring 2020 (UG1) and Monsoon 2020 (H2, PG1) <br/>
-                - Introduction to Quantum Information and Computation, Spring 2021 (H2, Elective) <br/>
-                - My responsibilities include conducting tutorials, making and correting assignments and exams, working with the students on their projects, etc. <br/>
+  description:
+    - Linear Algebra, Spring 2020 (UG1) and Monsoon 2020 (H2, PG1)
+    - Introduction to Quantum Information and Computation, Spring 2021 (H2, Elective)
+    - My responsibilities include conducting tutorials, making and correting assignments and exams, working with the students on their projects, etc.
 
 - title: Research Intern at ISB Mohali
   from: June 2019
   to: August 2019
-  description: I worked with Dr. Siddharth Sharma on basketball game data collection and data analysis to derive relation between team performance and pollsters' predictions of the game.
+  description:
+    - I worked with Dr. Siddharth Sharma on basketball game data collection and data analysis to derive relation between team performance and pollsters' predictions of the game.
 
 - title: Visiting Student at ISI Kolkata
   from: May 2019
   to: May 2019
-  description: I attended a summer school organised by Prof. Guruprasad Kar and his team at PAMU, ISI Kolkata. We studied the formalism of quantum mechanics, no cloning, entanglement detection and resource use, key generation and distribution, non-locality, quantum information theory and processing, bell's theorem, quantum cryptography, and quantum computation.
+  description:
+    - I attended a summer school organised by Prof. Guruprasad Kar and his team at PAMU, ISI Kolkata. We studied the formalism of quantum mechanics, no cloning, entanglement detection and resource use, key generation and distribution, non-locality, quantum information theory and processing, bell's theorem, quantum cryptography, and quantum computation.
 
 - title: SysAdmin, Felicity, IIIT Hyderabad
   from: Dec 2018
   to: Jan 2019
-  description: Responsible for all the DevOps work, like deploying the websites and utility services like the mailtrain on our server.
+  description:
+    - Responsible for all the DevOps work, like deploying the websites and utility services like the mailtrain on our server.
+
