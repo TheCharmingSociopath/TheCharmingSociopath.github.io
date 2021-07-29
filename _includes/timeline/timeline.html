@@ -6,7 +6,7 @@
           <h2>{{ item.title }}</h2>
           <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
             {% for desc in item.description %}
-            - {{ desc | markdownify }} <br/>
+            - {{ desc }} <br/>
             {% endfor %}
         </div>
       </div>
