@@ -7,36 +7,59 @@ meta:
     - Chaos Monkeys
     - Anxious People
 
-notes:
+books_read:
   - title: The Plague
     author: Albert Camus
-    review: "I was recently asked If I could have dinner with anyone, dead or alive, who would it be? My two choices were Camus and Feynmann (duh!)
-What struck me most while reading the book was how slow social development of humans has been, when compared to technological development. It makes sense, since social patterns are emergent behaviour and it would take a lot of effort to change the system enough to observe a change. This book was written in 1947, and the description is probably from that time. It was fun to compare people's behaviour during the COVID-19 pandemic vs. people's behaviour in the book. Compare that with the rapid development of vaccines, processing of viral genome, etc. that happened during the COVID.
-
-I was recently reading [Limits to Growth](https://web.ics.purdue.edu/~wggray/Teaching/His300/Illustrations/Limits-to-Growth.pdf),"
-
   - title: Probably Approximately Correct
     author: Leslie Valiant
-    review:
-
   - title: Shoe Dog
     author: Phil Knight
-    review: "Shoe Dog is a must read. It's exciting, energizing, absolutely fantastic. I planned on reading it slowly, actually ended up reading all of it over a weekend. His life has been a roller coster ride, and he did a fantastic job in turning it into a book. The book is summarised well by something that my grandfather says very often when recalling some of his life's stories to he: *Paise se hi paisa aata hai* which basically means it takes money to make money."
-
   - title: Poor Economics
     author: Abhijit V. Banerjee and Esther Duflo
-
   - title: Why Nations Fail
     author: Daron Acemoglu and James Robinson
-    review:
-
   - title: Tuesdays with Morrie
     author: Mitch Albom
-    review: "I don't read a lot of self help books since they are not really my type. I think they all say the same things in a different manner, very much inflated in terms of numebr of pages to make it seem necessary, and can be summarised well in some short blog. Some decide to add in some fiction, and the story makes it more readable. I decided to give this one a try since I got it recommended by too many people. The story is heartwarming and the character of Morrie is really interesting in terms of personality and his outlook to life can certainly add a lot of value to mine."
+  - series: Percy Jackson and the Olympians
+    books:
+     - The Lightning Thief (2005)
+     - The Sea of Monsters (2006)
+     - The Titan's Curse (2007)
+     - The Battle of the Labyrinth (2008)
+     - The Last Olympian (2009)
+  - series: Magnus Chase and the Gods of Asgard
+    books:
+      - The Sword of Summer (2015)
+      - The Hammer of Thor (2016)
+      - The Ship of the Dead (2017)
+  - The Hitchhiker's Guide to the Galaxy
+  - The Devotion of Suspect X
+  - And Then The Mountains Echoed
+  - Kite Runner
+  - 1984
+  - Animal Farm
+  - Norwegian Wood
+  - series: Poirot
+    books:
+      - The ABC Murders
+      - The Murder of Roger Ackroyd
+      - Murder on the Orient Express
+  - And Then There Were None
+  - The Book Thief
+  - The Lord of the Rings
+  - Art of War
+  - Sapiens
+  - "Talk Like Ted -- Started, Trash book"
+  - A briefer history of time
+  - Steve jobs iCon
+  - Alchemist
+  - The Spy
+  - Veroninka decides to die
+  - Seven Brief Lessons on Physics by Carlo Rovelli
 
-reading_list:
-  - The armchair economist
-  - The undercover economist
+wishlist:
+  - The Armchair Economist
+  - The Undercover Economist
   - How the mighty fall
   - "The Reign of Wolf 21: The Saga of Yellowstone’s Legendary Druid Pack"
   - Chaos Monkeys
@@ -48,5 +71,99 @@ reading_list:
   - Quantum Computing Since Democritus
   - The Beginning of Infinity, by David Deutsch
   - Superintelligence, by Nick Bostrom
+  - How to Solve it
+  - How to prove it
+  - The harm in hate speech
+  - The great illusion
+  - Tools and weapons, Brad smith
+  - Diaspora by Greg Egan
+  - The House of Silk (Holmes) by Anthony Horowitz
+  - Sybil: The Classic True Story of a Woman Possessed by Sixteen Personalities
+  - Azaadi, Arundhati Roy
+  - HARD WIRED by Len Vlahos
+  - On numbers and games
+  - Homo deus
+  - Catch 22
+  - Hystopia
+  - Godel, Escher and Bach
+  - The art of learning, Josh weitzkin
+  - Brave new world
+  - Lolita
+  - Chaos
+  - Principles
+  - The google story
+  - Red plenty
+  - The Book of five rings
+  - The Tao of Jeet kuon do
+  - SANCTUARY By Paola Mendoza and Abby Sher
+  - Grapes of wrath
+  - Gödel’s proof, by Ernest Nagel
+  - Eighth day of creation
+  - The year of yes
+  - The existentialist cafe
+  - The second sex
+  - Paradoxical PM
+  - The book of disquiet
+  - Jonathan Livingston seagull
+  - The harm in hate speech
+  - Manufacturing concept
+  - Ringworld
+  - My Sister, The Serial Killer
+  - The Calcutta chromosome
+  - One hundred years of solitude
+  - A billion wicked thoughts
+  - Bluest eye
+  - Three body problem
+  - The outsider, Camus
+  - rokeya sakhawat hossain
+  - Lotka Stuff
+  - Mahasweta Devi
+  - Street Corner Society
+  - Banality of evil
+  - Gang leader for a day, Sudhir Venkatesh
+  - Biomimicry
+  - The inner game of tennis, Timothy gallwey
+  - The secret lives of colour, Kassia st. Clair
+  - Megatech: Technology in 2050
+  - Working with emotional intelligence, Daniel Goleman
+  - How the mighty fall
+  - And tango makes three, Justin Richardson
+  - ttyl, ttfn, l8r, g8r, Laurren Myracle
+  - Satanic Verses, Salman Rushdie
+  - midnight's Children, Salman Rushdie
+  - Catcher in the Rye, J. D. Salinger
+  - Of mice and men, John Steinbeck
+  - Brave new world, Aldous Huxley
+  - Call of the wild, jack london
+  - The adventures of huckleberry finn, Mark Twain
+  - The Communist Manifesto
+  - Jonathan Livingston Seagull, Richard Bach
+  - Fools Die, Mario Puzo
+  - Naga series, Amish tripathi
+  - Great expectations
+  - Paulo Coelho's 8
+  - Dan brown’s stuff
+  - Paradise lost, by john Milton
+  - Arms and the man, by George Bernard Shaw
+  - 7 day start-up
+  - Rich dad poor dad
+  - House of leaves
+  - Catch 22
+  - Fahrenheit 451
+  - Asura-tale of the vanquished
+  - Prestige
+  - Nora Roberts skin deep
+  - Footprints of god
+  - The tibetan book of the dead,, robert a f thruman
+  - The girl on the train, paula hawkins
+  - Sacred music, alain danielou
+  - Train to pakistan
+  - The Cuckoo’s Egg
+
+short_stories_to_read:
+  - The country without a post office
+  - The hunger artist
+  - The valorisation Enthalpy of a peculiar Pakistani family
+  - Bring your own spoon by Saad Z Hossain
 
 

@@ -20,44 +20,42 @@ When you play an online multiplayer game, how does the system decide which oppon
 - Tournament: A collection of rounds will form a tournament.
 
 
-\subsection{Elo rating system}
+## Elo rating system
 It is a method for calculating the relative skill levels of players in zero-sum games such as chess. It is named after its creator Arpad Elo. It is extensively used in games other than chess as well, with little modification.
 
 In Elo, the skill estimate is considered to be a whole number called the `\textit{Rating}', and the values are updated as the outcomes of more and more games becomes available. Players' ratings depend on the ratings of their opponents and the results scored against them. The difference in rating between two players determines an estimate for the expected score between them. Players with higher rating have a higher probability of winning a game than a player with lower rating. After each game, rating of players is updated. If a player with higher rating wins, only a few points are transferred from the lower rated player. However if lower rated player wins, then transferred points from a higher rated player are far greater.
 
 If players A and B have ratings $R_A, R_B$, respectively, then their expected score $E_A$ and $E_B$ (the probability of winning) is given as follows:
 
-\begin{align*}
+$$
     E_A &= \frac{1}{1 + 10^{\frac{R_B - R_A}{400}}} = \frac{Q_A}{Q_A + Q_B} \\
     E_B &= \frac{1}{1 + 10^{\frac{R_A - R_B}{400}}} = \frac{Q_B}{Q_A + Q_B}
-\end{align*}
+$$
 
 where $Q_i = 10^{\frac{R_i}{400}}$. The constants 10 and 400 are set such that that for each 400 rating points of advantage over the opponent, the expected score is magnified ten times in comparison to the opponent's expected score. Now we can use this expected score or the winning probability to update the ratings of the players involved. A simple adjustment is given as follows.
 
-\begin{align*}
+$$
     R'_A = R_A + K (S_A - E_A) \\
     R'_B = R_B + K (S_B - E_B)
-\end{align*}
+$$
 
 Here, $R'_i$ is the new rating of the $i^{th}$ player, $S_i$ is the score of the $i^{th}$ player, which can be binary (0-1) values, denoting a loss or a win, or it can be something else. The constant $K$ here is the called the K-factor, and it denotes the maximum possible rating change in one game. This is because, the maximum difference between expected and actual score can be 1, changing the rating of the players involved by $K$. We can also use different K-factors for players with varying experience on a platform (i.e., players whose ratings we are more confident on can have a lower K-factor than otherwise.)
 
 There are some drawbacks to Elo, such as it does not apply directly to team games, or games involving more than two players.
 
-\subsection{Trueskill}
+## Trueskill
 TrueSkill is a model based approach to the match making problem, based on the assumption that the skill of a player is an uncertain quantity, and should be modelled using a probability distribution. We'll try to understand this model here.
 
-\subsubsection{Assumptions}
+### Assumptions
 As mentioned above, TrueSkill is a model based rating system. Here are the assumptions of the model:
 
-\begin{itemize}
-    \item Each player has a skill value, represented by a continuous variable with a broad Gaussian distribution.
-    \item Each player has a performance value for each game, which varies from game to game such that the average value is equal to the skill of that player. The variation in performance, which is the same for all players, is symmetrically distributed around the mean value and is more likely to be close to the mean than to be far from the mean.
-    \item The player with the higher performance value wins the game.
-\end{itemize}
+- Each player has a skill value, represented by a continuous variable with a broad Gaussian distribution.
+- Each player has a performance value for each game, which varies from game to game such that the average value is equal to the skill of that player. The variation in performance, which is the same for all players, is symmetrically distributed around the mean value and is more likely to be close to the mean than to be far from the mean.
+- The player with the higher performance value wins the game.
 
 Now that the skill values are represented as probability distributions, we can use our knowledge of probabilistic graphical models to represent the random variable associated with performance, skill and the game outcomes as a factor graph, and use belief propagation on the graph to update skill values.
 
-\subsubsection{Modelling the outcomes of games}
+### Modelling the outcomes of games
 Suppose we have two players, Fred and Jill. They have skills Fskill and Jskill respectively, and their performance is Fperf and Jperf, derived from their skill values. Suppose the Bernoulli variable Jwins denotes the winning or losing of Jill by taking the values true and false respectively. Then, the game can be represented using the following factor graph.
 
 \begin{figure}[H]
@@ -71,7 +69,7 @@ This model captures the uncertainty in the performance of players, say because o
 
 Now if we are given the skill values, we can use the factor graph to find the probabilistic outcome of the game. Or the other way round, given the outcome of a game, we can run inference in order to compute the marginal posterior distributions of the skill variables Jskill and Fskill.
 
-\subsubsection{Using belief propagation to update skills}
+### Using belief propagation to update skills
 Since the graph has a tree structure, we can use belief propagation to solve this problem.
 
 As in the reference, we can take an example to understand this. Suppose Jwins is true, and we want to evaluate the posterior distribution for Jskill. The following figure gives an overview of which messages that need to be evaluated.
@@ -90,7 +88,7 @@ Message (1) is just given by the Gaussian factor itself. Similarly, message (2) 
 
 The marginal distribution of Jskill is obtained by multiplying messages (8) and (9). Because this is the product of a Gaussian and a cumulative Gaussian the result is an asymmetrical distribution, which is not a Gaussian. This is the posterior distribution for Jskill. We can also pass messages in the opposite direction around the graph to obtain the corresponding posterior distribution for Fskill.
 
-\subsubsection{Extending to multiple players -- expectation propagation}
+### Extending to multiple players -- expectation propagation
 We have seen how to exactly find posterior distributions for the distributions representing skills of the two players. We can easily extend this to other players, by adding the other games in the same graph, and running belief propagation on the bigger graph one by one. But there is a problem with doing this. Initially, Jskill was a 2 parameter gaussian distribution. After running belief propagation once, we get a distribution which is a product of a gaussian and a cumulative gaussian, and hence has 4 parameters. If we now run belief propagation on a game with another player, we will get another distribution with two cumulative distributions and six parameters.
 
 To get around this problem, we use expectation propagation. We approximate the non-gaussian distributions locally with a gaussian distribution, and we do it in the following manner.
