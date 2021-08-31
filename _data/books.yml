@@ -1,12 +1,15 @@
 meta:
   currently_reading:
     - Probably Approximately Correct
-    - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
-  next:
     - Chaos Monkeys
+    - The Computer and the Brain
+  next:
+    - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
     - Anxious People
 
 books_read:
+  - title: Tell Me Your Dreams
+    author: Sydney Sheldon
   - title: The Plague
     author: Albert Camus
   - title: Probably Approximately Correct
@@ -20,14 +23,16 @@ books_read:
   - title: Tuesdays with Morrie
     author: Mitch Albom
   - series: Percy Jackson and the Olympians
-    books:
+    author: Rick Riordan
+    titles:
      - The Lightning Thief (2005)
      - The Sea of Monsters (2006)
      - The Titan's Curse (2007)
      - The Battle of the Labyrinth (2008)
      - The Last Olympian (2009)
   - series: Magnus Chase and the Gods of Asgard
-    books:
+    author: Rick Riordan
+    titles:
       - The Sword of Summer (2015)
       - The Hammer of Thor (2016)
       - The Ship of the Dead (2017)
@@ -39,7 +44,8 @@ books_read:
   - Animal Farm
   - Norwegian Wood
   - series: Poirot
-    books:
+    author: Agatha Christie
+    titles:
       - The ABC Murders
       - The Murder of Roger Ackroyd
       - Murder on the Orient Express
