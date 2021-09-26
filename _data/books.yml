@@ -1,11 +1,16 @@
 meta:
   currently_reading:
-    - Probably Approximately Correct
-    - Chaos Monkeys
-    - The Computer and the Brain
+    - title: Probably Approximately Correct
+      author: Leslie Valiant
+    - title: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
+      author: Antonio García Martínez
+    - title: The Computer and the Brain
+      author: John von Neumann
   next:
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
     - Anxious People
+    - Einstein’s Unfinished Revolution
+    - something deeply hidden
 
 books_read:
   - title: Tell Me Your Dreams
