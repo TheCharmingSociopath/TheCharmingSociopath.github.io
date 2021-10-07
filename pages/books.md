@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Books
+title: Reading
 weight: 2
-permalink: /books_read/
+permalink: /reading/
 ---
 {% include books.html %}
 
