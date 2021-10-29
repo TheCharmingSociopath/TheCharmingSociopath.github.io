@@ -5,7 +5,7 @@ style: default
 color: primary
 description: Is it a bird? Is it also that bird? What is an `Algebra'?
 date: 17-08-2021
-updated: 17-08-2021
+updated: 2021-10-29
 ---
 
 I was reading a paper which mentioned *We may view [a specific] ring as an algebra over the real or over the complex numbers*, and I realised I did not know formally what an *Algebra* was. So thought I'll clear it up for myself. Turns out the word is a bit overused.
@@ -31,7 +31,7 @@ It turns out these aren't the only contexts in which the term is used. Here is a
 
 > The properties of specific algebraic structures are studied in *abstract algebra*. The general theory of algebraic structures has been formalized in *universal algebra*. The language of *category theory* is used to express and study relationships between different classes of algebraic and non-algebraic objects.
 
-Mathematicians are clearly great at naming things.
+Mathematicians are clearly great at naming things. And confusing me.
 
 ### References
 
