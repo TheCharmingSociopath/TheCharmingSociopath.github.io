@@ -2,17 +2,18 @@ meta:
   currently_reading:
     - title: Probably Approximately Correct
       author: Leslie Valiant
-    - title: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
-      author: Antonio García Martínez
     - title: The Computer and the Brain
       author: John von Neumann
   next:
+    - The Beginning of Infinity, by David Deutsch
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
     - Anxious People
     - Einstein’s Unfinished Revolution
     - something deeply hidden
 
 books_read:
+  - title: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
+    author: Antonio García Martínez
   - title: Tell Me Your Dreams
     author: Sydney Sheldon
   - title: The Plague
@@ -77,7 +78,6 @@ wishlist:
   - South of the Border, West of the Sun by Haruki Murakami
   - The Selfish Gene, by Richard Dawkins
   - Quantum Computing Since Democritus
-  - The Beginning of Infinity, by David Deutsch
   - Superintelligence, by Nick Bostrom
   - How to Solve it
   - How to prove it
