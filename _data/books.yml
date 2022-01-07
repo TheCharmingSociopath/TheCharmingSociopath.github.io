@@ -2,10 +2,12 @@ meta:
   currently_reading:
     - title: Probably Approximately Correct
       author: Leslie Valiant
-    - title: The Computer and the Brain
-      author: John von Neumann
+    - title: The Information: A History, a Theory, a Flood
+      author: James Gleick
+    - title: The Beginning of Infinity
+      author: David Deutsch
+
   next:
-    - The Beginning of Infinity, by David Deutsch
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
     - Anxious People
     - Einstein’s Unfinished Revolution
