@@ -14,7 +14,7 @@ I wanted to export the circuit created using Qcircuit as images, and it took a w
 ##### Note: Commands here are for Arch. You can use apt for debian distros.
 
 You need to have tex installed in your system. Packages I use are
-```
+```bash
 sudo pacman -S texlive-most texlive-core texlive-science texlive-latexextra texlive-bibtexextra texlive-publishers texlive-pictures
 ```
 
@@ -22,17 +22,33 @@ Some of these will be useless for you so check with documentation before install
 
 You need a python packages [latextools](https://pypi.org/project/latextools/) and `drawsvg`.
 
-```
+```bash
 pip install latextools drawsvg
 ```
 
 You need `pdf2svg` to convert the generated pdf to svg, which can then be converted to png, etc.
 
-```
+```bash
 yay -S pdf2svg
 ```
 
-For Qcircuit, you need to install it from CTAN. Create a path `$HOME/texmf/tex/latex/qcircuit`. Then download the `.sty` file into that location.
+You need to install `Qcircuit` from CTAN. Create a path `$HOME/texmf/tex/latex/qcircuit`. Then download the `.sty` file into that location.
+You can figure out above path using `kpsewhich -var-value TEXMFHOME`
 
+Now you can use latextools to export a latex snippet as an image. Here is a short snippet.
+
+```python
+import latextools
+
+pdf = latextools.render_qcircuit(r'''
+         \push{\ket{a}} & \ctrl{1} & \targ & \ctrl{1} & \qw & \push{\ket{b}} \\
+         \push{\ket{b}} & \targ & \ctrl{-1} & \targ & \qw & \push{\ket{a}} \\
+        ''')
+
+pdf.save('swap-using-cnot.pdf')
+pdf.rasterize('swap-using-cnot.png', scale=3)
+```
+
+The `latextools` documentation lists more examples.
 
 
