@@ -3,11 +3,12 @@ title: Exporting Tex Elements As Images Using Python.
 tags: [Tex, Scripting, Workflow]
 style: default
 color: primary
+description: How to export quantum circuits and other latex elements as images.
 date: 22-01-2022
 updated: 22-01-2022
 ---
 
-Today while writing a blog post on [a quantum circuit trick](https://thecharmingsociopath.github.io/blog/swap-gate), I needed to create some quantum circuit diagrams. First I thought of using Qiskit or Cirq for it, but the overhead to install and setup them didn't seem worth it. So I tried Tikz, and a Tex package called [Qcircuit.]()
+Today while writing a blog post on [a quantum circuit trick](https://thecharmingsociopath.github.io/blog/swap-gate), I needed to create some quantum circuit diagrams. First I thought of using Qiskit or Cirq for it, but the overhead to install and setup them didn't seem worth it. So I tried Tikz, and a Tex package called [Qcircuit.](https://www.ctan.org/tex-archive/graphics/qcircuit)
 
 I wanted to export the circuit created using Qcircuit as images, and it took a while to figure out an optimal way to do it. I decided to write it here since this method is very versatile and can be used to export tables, tikz images, and a lot more.
 
