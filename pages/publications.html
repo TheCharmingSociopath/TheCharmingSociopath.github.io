@@ -1,16 +1,17 @@
 ---
 layout: default
 title: Publications
-weight: 4
 permalink: /publications/
+weight: 1
 ---
+
 <div class="col mt-4">
     {% for item in site.data.publications %}
     <div class="content">
-        <h2>{{ item.title }}</h2>
-        <h4><b>Authors</b>: {{ item.authors }} </h4>
-        <h6 class="date">{{ item.date }} </h6>
+        <h3>{{ item.title }}</h3>
+        <p><b>Authors: </b> {{ item.authors }} <p>
         <p><b>Abstract: </b> {{ item.abstract }}</p>
+        <h6 > Dated {{ item.date }}; <a href="{{item.doi}}"> <b>doi</b></a> </h6>
     </div>
     <hr />
     {% endfor %}
