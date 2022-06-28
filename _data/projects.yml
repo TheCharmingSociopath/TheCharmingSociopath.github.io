@@ -44,3 +44,11 @@
   description: Compiler for a toy language C-- inspired by C and Decaf. Includes a parser made using Antlr, custom syntax tree contruction using Visitor Design Pattern, and LLVM IR generation.
   image: /assets/images/projects/compiler.png
   external_url: https://github.com/TheCharmingSociopath/C--Compiler
+
+- name: QML for HEP
+  tools: [pytorch, quantum-machine-learning, hep]
+  description: Exploratory work on using quantum machine learning for high energy physics. 
+  image: /assets/images/projects/face.png
+  external_url: https://github.com/TheCharmingSociopath/qml-for-hep
+
+
