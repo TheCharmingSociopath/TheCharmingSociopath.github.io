@@ -1,4 +1,7 @@
-# - title: Some Title
-#   authors: Authors
-#   date: 22 November 2020
-#   abstract: Abstract
+- title: Quantum Regularized Least Squares
+  authors: Shantanav Chakraborty, Aditya Morolia, Anurudh Peduri
+  date: 27 June 2022
+  abstract: Linear regression is a widely used technique to fit linear models and finds widespread applications across different areas such as machine learning and statistics. In most real-world scenarios, however, linear regression problems are often ill-posed or the underlying model suffers from overfitting, leading to erroneous or trivial solutions. This is often dealt with by adding extra constraints, known as regularization. In this paper, we use the frameworks of block-encoding and quantum singular value transformation to design new quantum algorithms for quantum least squares with general $\ell_2$-regularization. These include regularized versions of quantum ordinary least squares, quantum weighted least squares, and quantum generalized least squares. Our quantum algorithms substantially improve upon prior results on quantum ridge regression (the regularization term is proportional to the $\ell_2$-norm of the least squares solution), which is a particular case of our result. To this end, we assume approximate block-encodings of the underlying matrices as input and use robust QSVT algorithms for various linear algebra operations. In particular, we develop a variable-time quantum algorithm for matrix inversion using QSVT, where we use quantum eigenvalue discrimination as a subroutine instead of gapped phase estimation. This ensures that fewer additional qubits are required for this procedure than prior results. Owing to the generality of the block-encoding framework, our algorithms can be implemented on a variety of input models and can also be seen as improved and generalized versions of the standard (non-regularized) quantum least squares algorithms of Chakraborty et al. [ICALP 2019].
+  doi: "https://doi.org/10.48550/arXiv.2206.13143"
+
+
