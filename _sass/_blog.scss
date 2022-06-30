@@ -5,13 +5,10 @@
 .post.card {
   border-radius: $rounded-borders;
   text-decoration: none !important;
-  padding: 15px;
-  height: 100%;
+  font-size: $card-font-size;
 
   .card-footer {
     font-size: 14px;
-    margin: 0 -15px -15px -15px;
-    padding: 15px 35px;
   }
 }
 
