@@ -1,15 +1,6 @@
 <div class="justify-content-center align-items-center p-4">
-  <div class="text-center mt-4">
-
-    <h4 class="wow animated slideInDown" data-wow-delay=".15s">{{ site.description }}</h4>
-    <div class="wow animated zoomIn" data-wow-delay=".15s" style="margin-top: 12%;">
+    <div class="wow animated zoomIn text-left" data-wow-delay=".15s">
       {% capture my_include %}{% include about.md %}{% endcapture %}
       {{ my_include | markdownify }}
     </div>
-    <div style="margin-top: 12%;">
-      <h4 class="wow animated slideInUp" data-wow-delay=".15s">
-        <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by <strong>{{ site.author.name }}</strong>
-      </h4>
-    </div>
-  </div>
 </div>
