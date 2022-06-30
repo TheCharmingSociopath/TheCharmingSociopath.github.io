@@ -2,10 +2,11 @@
   border-radius: $rounded-borders;
   text-decoration: none !important;
   margin: 10px auto;
+  font-size: 15px;
 
   .card-img-top {
     border-radius: $rounded-borders $rounded-borders 0 0;
-    max-height: 350px;
+    max-height: 200px;
   }
 
   transition: transform 400ms;
