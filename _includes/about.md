@@ -4,7 +4,7 @@ I'm Aditya Morolia, a computer science undergrad student at [CQST, IIIT Hyderaba
 
 I'm broadly interested in theoretical computer science (especially complexity theory, quantum algorithms) and numerical analysis. 
 In the past I've worked on Variable-Time Quantum Algorithms for Regularized Linear Regression using Quantum Singular Value Transformation. 
-Next, I would like to explore how these techniques can be used to solve other linear algebra problems, in simulating systems in physics and chemistry, and in machine learning. 
+Next, I would like to explore how these techniques can be used to solve other linear algebra problems, in simulating systems in physics and chemistry, and in optimization and machine learning. 
 I also like scientific computing and reinforcement learning, and would love to explore these further. 
 You can find my publications [here](/publications). 
 You can find some other stuff written by me [here](/academia/). 
