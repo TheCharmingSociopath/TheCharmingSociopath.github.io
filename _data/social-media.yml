@@ -1,6 +1,11 @@
 # Get Icons  from : https://fontawesome.com/icons
 # Get Colors from : https://brandcolors.net/
 
+scholar:
+  url   : https://scholar.google.com/
+  icon  : fas fa-graduation-cap
+  color : dd4b39
+
 behance:
   url   : https://www.behance.net/
   icon  : fab fa-behance
