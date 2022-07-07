@@ -4,8 +4,6 @@ meta:
       author: Leslie Valiant
     - title: "The Information: A History, a Theory, a Flood"
       author: James Gleick
-    - title: The Beginning of Infinity
-      author: David Deutsch
 
   next:
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
@@ -14,6 +12,12 @@ meta:
     - something deeply hidden
 
 books_read:
+  - title: Exhalation
+    author: Ted Chiang
+  - title: "Another Now: Dispatches from an Alternative Present"
+    author: Yanis Varoufakis
+  - title: The Beginning of Infinity
+    author: David Deutsch
   - title: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
     author: Antonio García Martínez
   - title: Tell Me Your Dreams
