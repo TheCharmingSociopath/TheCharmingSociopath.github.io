@@ -1,9 +1,7 @@
 meta:
   currently_reading:
-    - title: Probably Approximately Correct
-      author: Leslie Valiant
-    - title: "The Information: A History, a Theory, a Flood"
-      author: James Gleick
+    - title: 1Q84
+      author: Haruki Murakami
 
   next:
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
@@ -12,6 +10,10 @@ meta:
     - something deeply hidden
 
 books_read:
+  - title: "Flash Boys: A Wall Street Revolt"
+    author: Michael Lewis
+  - title: The God of Small Things
+    author: Arundhati Roy
   - title: Exhalation
     author: Ted Chiang
   - title: "Another Now: Dispatches from an Alternative Present"
