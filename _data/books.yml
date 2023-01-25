@@ -1,7 +1,7 @@
 meta:
   currently_reading:
-    - title: 1Q84
-      author: Haruki Murakami
+    - title: Fahrenheit 451
+      author: Ray Bradbury
 
   next:
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
@@ -10,6 +10,10 @@ meta:
     - something deeply hidden
 
 books_read:
+  - title: Men Without Women
+    author: Haruki Murakami
+  - title: 1Q84 Triology
+    author: Haruki Murakami
   - title: "Flash Boys: A Wall Street Revolt"
     author: Michael Lewis
   - title: The God of Small Things
