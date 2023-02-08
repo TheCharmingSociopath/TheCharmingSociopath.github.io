@@ -3,7 +3,7 @@ title: Ranking and Rating Systems
 tags: [Algorithms]
 style: default
 color: primary
-description: How do online multiplayer games pick who are you gonna be playing your next game with? How does chess rankings work? Lets try to understand.
+description: How do online multiplayer games pick who are you gonna be playing your next game with? How do chess ratings work? Lets try to understand.
 date: 23-01-2022
 updated: 08-02-2023
 ---
