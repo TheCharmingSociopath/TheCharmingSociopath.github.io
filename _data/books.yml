@@ -1,9 +1,7 @@
 meta:
   currently_reading:
-    - title: Probably Approximately Correct
-      author: Leslie Valiant
-    - title: "The Information: A History, a Theory, a Flood"
-      author: James Gleick
+    - title: Fahrenheit 451
+      author: Ray Bradbury
 
   next:
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
@@ -12,6 +10,14 @@ meta:
     - something deeply hidden
 
 books_read:
+  - title: Men Without Women
+    author: Haruki Murakami
+  - title: 1Q84 Triology
+    author: Haruki Murakami
+  - title: "Flash Boys: A Wall Street Revolt"
+    author: Michael Lewis
+  - title: The God of Small Things
+    author: Arundhati Roy
   - title: Exhalation
     author: Ted Chiang
   - title: "Another Now: Dispatches from an Alternative Present"
@@ -32,6 +38,8 @@ books_read:
     author: Daron Acemoglu and James Robinson
   - title: Tuesdays with Morrie
     author: Mitch Albom
+  - title: Norwegian Wood
+    author: Haruki Murakami
   - series: Percy Jackson and the Olympians
     author: Rick Riordan
     titles:
@@ -73,6 +81,7 @@ books_read:
   - Seven Brief Lessons on Physics by Carlo Rovelli
 
 wishlist:
+  - The Logic of Capital, An Introduction to Marxist Economic Theory
   - The Armchair Economist
   - The Undercover Economist
   - How the mighty fall
@@ -173,6 +182,7 @@ wishlist:
   - The Cuckoo’s Egg
 
 short_stories_to_read:
+  - Flowers of Algernon
   - The country without a post office
   - The hunger artist
   - The valorisation Enthalpy of a peculiar Pakistani family

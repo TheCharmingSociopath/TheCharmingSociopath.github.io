@@ -5,7 +5,7 @@ The theme (most of the CSS) was taken from: [YoussefRaafatNasry/portfolYOU](http
 
 ## How to set up
 
-- Install ruby (Arch): `sudo pacman -S ruby2.7`
+- Install ruby (Arch): `sudo pacman -S ruby`
 - Add the following to your .zshrc
     ```
         # Install Ruby Gems to ~/gems
@@ -14,7 +14,7 @@ The theme (most of the CSS) was taken from: [YoussefRaafatNasry/portfolYOU](http
         export PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
     ```
 - `bundle-2.7 install`
-- `bundle-2.7 exec jekyll serve`
+- `bundle-2.7 exec jekyll serve --livereload`
 - Navigate to `http://127.0.0.1:4000/` and check out the page.
 
 
