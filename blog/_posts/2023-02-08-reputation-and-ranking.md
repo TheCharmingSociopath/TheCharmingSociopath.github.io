@@ -97,3 +97,10 @@ where Proj() is the projection, and represents the process of replacing a non-ga
 This approach of using an incoming message to provide the context in which to approximate the corresponding outgoing message is known as expectation propagation (or EP). With this technique, we can always locally approximate the non-gaussian messages by a gaussian. And we also know that the product of two gaussian distribution is a gaussian. Hence, we now have a posterior distribution which is also a gaussian with 2 parameters, thus is of the same form as the prior. Therefore, we can now easily run the algorithm multiple times without blowing up the parameters in our distribution.
 
 The beauty of this model is that now we can easily add more players to the graph and extend it to work for team games, multi player games, and also handle draws.
+
+
+##### Acknowledgement
+
+I thank my friend [Athreya Chandramouli](https://cathreya.github.io/) for spending hours with me on calls where we tried to understand these topics.
+
+
