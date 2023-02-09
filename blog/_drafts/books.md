@@ -1,3 +1,18 @@
+---
+title: Big words, small pages. 
+tags: [Books]
+style: default
+color: primary
+date: 24-10-2022
+updated: 09-02-2023
+---
+
+### The God of Small Things
+
+\[when they lay together in bed\]..."their bodies fit like stacked spoons. What a beauifully written statement. Arundhati Roy seems to be the queen of metaphors. I thoroughly enjoyed reading this book. 
+
+Also read [Reading Arundhati Roy politically by Aijaz Ahmad](https://frontline.thehindu.com/cover-story/reading-arundhati-roy-politically-by-aijaz-ahmad/article38458826.ece)
+
 ### The Plague
 
 I was recently asked If I could have dinner with anyone, dead or alive, who would it be? My two choices were Camus and Feynmann (duh!)
