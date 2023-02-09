@@ -1,7 +1,7 @@
 meta:
   currently_reading:
-    - title: Fahrenheit 451
-      author: Ray Bradbury
+    - title: The Summer That Melted Everything
+      author: Tiffany McDaniel
 
   next:
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
@@ -10,6 +10,8 @@ meta:
     - something deeply hidden
 
 books_read:
+  - title: Fahrenheit 451
+    author: Ray Bradbury
   - title: Men Without Women
     author: Haruki Murakami
   - title: 1Q84 Triology
