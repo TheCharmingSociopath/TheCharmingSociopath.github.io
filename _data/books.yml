@@ -1,7 +1,7 @@
 meta:
   currently_reading:
-    - title: The Summer That Melted Everything
-      author: Tiffany McDaniel
+    - title: Kafka on the Shore
+      author: Haruki Murakami
 
   next:
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
@@ -10,6 +10,8 @@ meta:
     - something deeply hidden
 
 books_read:
+  - title: The Summer That Melted Everything
+    author: Tiffany McDaniel
   - title: Fahrenheit 451
     author: Ray Bradbury
   - title: Men Without Women
@@ -22,6 +24,8 @@ books_read:
     author: Arundhati Roy
   - title: Exhalation
     author: Ted Chiang
+  - title: The Picture of Dorian Gray
+    author: Oscar Wilde
   - title: "Another Now: Dispatches from an Alternative Present"
     author: Yanis Varoufakis
   - title: The Beginning of Infinity
