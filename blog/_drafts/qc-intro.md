@@ -66,7 +66,56 @@ $$
 
 We'll call this the up and the down states, or the zero and the one state. They span the space of all possible qubit states. And thus an arbitrary qubit state can be written as $a_0 \ket{0} + a_1 \ket{1}$. When we  *observe the quantum state*, an act called *measurement*[3], we get the state $\ket{0}$ with probability $\abs{a_0}^2$ and the state $\ket{1}$ with probability $\abs{a_1}^2$. This phenomenon is called superposition, and the qubits state is said to be superposed between $\ket{0}$ and $\ket{1}$. **Note:** Many people will tell you that quantum computing is powerful because you can represent all states in superposition and run computation on all inputs at once, but note that the act of measurement will **collapse** the qubit into one of the basis states, giving only one output. Thus, this presents a limitation to what can be done with a quantum computer. 
 
-We now know how to represent one qubit, and how to read out the result (measure). Next we need to learn how to represent multiple qubits, and how to transform qubits in the state space. 
+We now know how to represent one qubit, and how to read out the result (measure). Next we need to learn how to represent multiple qubits, and how to transform qubits in the state space. To represent more than one quantum state together, we use a operation called `tensor product ($\otimes$)`. For two 2D vectors, the operation is defined as follows. 
+
+$$
+\begin{pmatrix}
+a \\
+b 
+\end{pmatrix} \otimes \begin{pmatrix} c \otimes d \end{pmatrix}
+= \begin{pmatrix} 
+a \begin{pmatrix} c \\ d \end{pmatrix} \\
+b \begin{pmatrix} c \\ d \end{pmatrix}
+\end{pmatrix}
+= \begin{pmatrix} ac \\ ad \\ bc \\ bd \end{pmatrix}.
+$$ 
+
+Thus for two qubits, the (linear combinaiton of the) following four (basis) states are possible: 
+
+$$
+\begin{align}
+\ket{00} &= \ket{0} \otimes \ket{0} &= (1 0 0 0)^T \\ 
+\ket{01} &= \ket{0} \otimes \ket{1} &= (0 1 0 0)^T \\ 
+\ket{10} &= \ket{1} \otimes \ket{0} &= (0 0 1 0)^T \\ 
+\ket{11} &= \ket{1} \otimes \ket{1} &= (0 0 0 1)^T. \\ 
+\end{align}
+$$
+
+As an exercise, think about what is the probability of seeing each of the four basis states on meauring the state 
+$$
+\ket{\psi} := \begin{pmatrix} 0.5 \\ 0.5 \\ 0.5 \\ 0.5 \end{pmatrix}?
+$$
+
+It's 0.25 for each basis state. Note that the state of a $n$-qubit system is described by using a $2^n$D vector. Now let's discuss how the state evolves with time. Just as in classical theory, we need operations that map quantum states to quantum states (analogous to Stochastic matrices mapping stochastic vectors to stochastic vectors). The matrices that descibe quantum evolution are [Unitary matrices](https://en.wikipedia.org/wiki/Unitary_matrix). These are matrices that preserve [norms](https://en.wikipedia.org/wiki/Norm_(mathematics)), and thus also preserve probability amplitudes. Thus the total probability always remains 1. 
+
+For qubits, an arbitrary quantum state can be represented as $\ket{\psi} := a_0 \ket{0} + a_1 \ket{1}$. Let's try and visualize all possible quantum states. We know that the 2-norm of the state has to be one, $\norm{a_0}^2 + \norm{a_1}^2 = 1 $. Since $a_j$ is a complex number, we can write it using two real parameters $r_j$ and $\theta_j$ as $a_j := r_j e^{i\theta_j}$. But since we also know that the norm of the vector has to be 1, we can eliminate 1 parameter. Thus the geometry turns out to be that of a sphere, commonly called [Bloch Sphere](https://en.wikipedia.org/wiki/Bloch_sphere). Thus a quantum transformation on a qubit basically rotates a unit vector on a sphere. Next we will look at some commonly used quantum operators.
+
+![Bloch Sphere](../assets/qc-intro/bloch_sphere.png "Bloch Sphere")
+
+##### Pauli X, Y and Z Gates
+
+These are defined as follows. 
+
+$$
+\sigma_z := \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}, ~~~~\sigma_x := \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, ~~~\sigma_y := \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}.
+$$
+
+##### Hadamard Gate
+
+##### CNOT (Controlled NOT) Gate
+
+
+
 
 ## Current Landscape 
 
