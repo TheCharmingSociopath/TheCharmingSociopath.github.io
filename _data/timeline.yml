@@ -6,17 +6,17 @@
     - "Working on Quantum Information under Prof. Indranil Chakrabarty"
     - "Working on Quantum algorithms for Linear Algebra and ML along with Prof. Shantanav Chakraborty"
     - "I've headed the college E-Cell Corporate relations team for a year, Literary Club for 2 years, and Felicity (the annual techno-cultural fest of IIIT) marketing team for 1 year."
-    - "Active member of the Theory Reading Group, IIIT-H since it's start"
+    - "Active member of the Theory Reading Group, IIIT-H since it's inception"
     - "I've volunteered for TEDx Hyderabad events twice, and had a chance to work with the amazing team there."
 
 - title: Engineering Analyst
   from: July 2022
   to: Present
-  description: I work in the SecDB team, which designs and implements state of the art database systems. Technologies I use frequently are C++, Git, Linux, and Bash.
+  description: I work in the SecDB team, which designs and implements state of the art distributed database systems. Technologies I use frequently are C++, Git, Linux, and Bash.
 
 - title: Mitacs Undergraduate Research Intern, University of Calgary
   from: August 2021
-  to: Present
+  to: May 2022
   description:
     - I’m working with Prof. Barry C. Sanders on `Searching for Quantum Supremacy' in which we are formulating the problem of demonstrating limited quantum speedup of Quantum Annealing over classical Monte Carlo heuristics as an automated search problem using ML and structured search. I'm continuing on this project after the Mitacs period to finish up the work.
 

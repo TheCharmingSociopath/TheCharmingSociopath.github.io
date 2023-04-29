@@ -1,15 +1,15 @@
-I'm Aditya Morolia, a computer science undergrad student at [CQST, IIIT Hyderabad](https://cqst.iiit.ac.in/) advised by Prof. [Shantanav Chakraborty](https://sites.google.com/view/shchakra) and Prof [Indranil Chakrabarty](https://sites.google.com/view/indranilchakrabarty/). 
+I'm Aditya Morolia, a computer science undergrad student at [CQST, IIIT Hyderabad](https://cqst.iiit.ac.in/) advised by Prof. [Shantanav Chakraborty](https://sites.google.com/view/shchakra) and Prof [Indranil Chakrabarty](https://sites.google.com/view/indranilchakrabarty/).
 
 ### Research Interests
 
-I'm broadly interested in theoretical computer science (especially complexity theory, quantum algorithms) and numerical analysis. 
-In the past I've worked on Variable-Time Quantum Algorithms for Regularized Linear Regression using Quantum Singular Value Transformation. 
-Next, I would like to explore how these techniques can be used to solve other linear algebra problems, in simulating systems in physics and chemistry, and in optimization and machine learning. 
-I also explored scientific computing and reinforcement learning through projects on graph NNs and freelance projects. I would love to learn and work on these in the future. 
-You can find my publications [here](/publications). 
-You can find some other stuff written by me [here](/academia/). 
+I'm broadly interested in theoretical computer science (especially complexity theory, algorithms) and numerical analysis.
+In the past I've worked on Variable-Time Quantum Algorithms for Regularized Linear Regression using Quantum Singular Value Transformation.
+Next, I would like to explore how these techniques can be used to solve other linear algebra problems, in simulating systems in physics and chemistry, and in optimization and machine learning.
+I also explored scientific computing and reinforcement learning through projects on graph NNs and freelance projects. I would love to learn and work on these in the future.
+You can find my publications [here](/publications).
+You can find some other stuff written by me [here](/academia/).
 
-**New!** I recently put up a preprint of my first paper [Quantum Regularized Least Squares](https://scirate.com/arxiv/2206.13143).
+**New!** My first paper, [Quantum Regularized Least Squares](https://doi.org/10.22331/q-2023-04-27-988), got published in Quantum Journal!
 
 ### About Me
 
