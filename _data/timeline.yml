@@ -1,17 +1,21 @@
+- title: Research Assistant
+  from: August 2023
+  to: Present
+  description: Working with Prof. Divesh Aggarwal, Alessandro Luongo, Joao Doriguello and Georgios Giapitzakis.
+
 - title: CND Student, IIIT Hyderabad
   from: August 2017
-  to: Present
+  to: June 2023
   description:
-    - "Finished coursework for B.Tech in May, 2021 with CGPA: 8.68"
-    - "Working on Quantum Information under Prof. Indranil Chakrabarty"
-    - "Working on Quantum algorithms for Linear Algebra and ML along with Prof. Shantanav Chakraborty"
+    - "Work on Quantum Information under Prof. Indranil Chakrabarty"
+    - "Work on Quantum algorithms for Linear Algebra and ML along with Prof. Shantanav Chakraborty"
     - "I've headed the college E-Cell Corporate relations team for a year, Literary Club for 2 years, and Felicity (the annual techno-cultural fest of IIIT) marketing team for 1 year."
-    - "Active member of the Theory Reading Group, IIIT-H since it's inception"
+    - "Active member of the Theory Reading Group, IIIT-H since its inception"
     - "I've volunteered for TEDx Hyderabad events twice, and had a chance to work with the amazing team there."
 
 - title: Engineering Analyst
   from: July 2022
-  to: Present
+  to: July 2023
   description: I work in the SecDB team, which designs and implements state of the art distributed database systems. Technologies I use frequently are C++, Git, Linux, and Bash.
 
 - title: Mitacs Undergraduate Research Intern, University of Calgary

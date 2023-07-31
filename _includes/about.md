@@ -1,4 +1,5 @@
-I'm Aditya Morolia, a computer science undergrad student at [CQST, IIIT Hyderabad](https://cqst.iiit.ac.in/) advised by Prof. [Shantanav Chakraborty](https://sites.google.com/view/shchakra) and Prof [Indranil Chakrabarty](https://sites.google.com/view/indranilchakrabarty/).
+I'm Aditya Morolia, Research Assistant at Centre for Quantum Technologies (CQT), National University of Singapore (NUS).
+I did my bachelors in CS from IIIT Hyderabad, and masters from [CQST, IIIT Hyderabad](https://cqst.iiit.ac.in/) advised by Prof. [Shantanav Chakraborty](https://sites.google.com/view/shchakra) and Prof [Indranil Chakrabarty](https://sites.google.com/view/indranilchakrabarty/).
 
 ### Research Interests
 
@@ -8,8 +9,6 @@ Next, I would like to explore how these techniques can be used to solve other li
 I also explored scientific computing and reinforcement learning through projects on graph NNs and freelance projects. I would love to learn and work on these in the future.
 You can find my publications [here](/publications).
 You can find some other stuff written by me [here](/academia/).
-
-**New!** My first paper, [Quantum Regularized Least Squares](https://doi.org/10.22331/q-2023-04-27-988), got published in Quantum Journal!
 
 ### About Me
 
