@@ -21,3 +21,10 @@ This was developed as a portfolio website, ideal for blogging projects as well a
 └── pages
 ```
 
+## Todo
+
+[ ] Remove redundant CSS and JS stuff
+[ ] Upgrade mathjax
+[ ] Update the Academics page 
+[ ] Unbloat blogs page
+[ ] Move notes from notion to here, convert to MD + mathjax
