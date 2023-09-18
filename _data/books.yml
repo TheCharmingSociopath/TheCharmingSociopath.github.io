@@ -1,7 +1,7 @@
 meta:
   currently_reading:
-    - title: "Genius: The Life and Science of Richard Feynman"
-      author: James Gleick
+    - title: Born a Crime
+      author: Trevor Noah
 
   next:
     - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
@@ -10,6 +10,10 @@ meta:
     - something deeply hidden
 
 books_read:
+  - title: "Genius: The Life and Science of Richard Feynman"
+    author: James Gleick
+  - title: Harry Potter and The Methods of Rationality
+    author: Eliezer Yudkowsky
   - title: "Logicomix: An Epic Search for Truth"
     author: Apostolos Doxiadis, Christos Papadimitriou, Alecos Papadatos (Art), Annie Di Donna (Colour)
   - title: The Three Body Problem
@@ -200,6 +204,8 @@ wishlist:
   - Sacred music, alain danielou
   - Train to pakistan
   - The Cuckoo’s Egg
+  - Boltzmann's atom
+  - "https://www.goodreads.com/book/show/39299972-john-von-neumann-as-seen-by-his-brother"
 
 short_stories_to_read:
   - Flowers of Algernon
