@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reading
+title: Bookshelf
 weight: 2
 permalink: /reading/
 ---

@@ -1,15 +1,11 @@
 meta:
   currently_reading:
-    - title: Born a Crime
-      author: Trevor Noah
-
-  next:
-    - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
-    - Anxious People
-    - Einstein’s Unfinished Revolution
-    - something deeply hidden
+    - title: The Essex Serpent
+      author: Sarah Perry
 
 books_read:
+  - title: Born a Crime
+    author: Trevor Noah
   - title: "Genius: The Life and Science of Richard Feynman"
     author: James Gleick
   - title: Harry Potter and The Methods of Rationality
@@ -101,6 +97,12 @@ books_read:
   - Seven Brief Lessons on Physics by Carlo Rovelli
 
 wishlist:
+  - "The Great Degeneration: How Institutions Decay and Economies Die"
+  - The Guns of August
+  - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
+  - Anxious People
+  - Einstein’s Unfinished Revolution
+  - Something Deeply Hidden
   - A History of Western Philosophy by Bertrand Russell
   - When McKinsey Comes to Town
   - Fathers and Sons 
