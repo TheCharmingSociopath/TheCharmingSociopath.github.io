@@ -5,14 +5,5 @@ permalink: /publications/
 weight: 1
 ---
 
-<div class="col mt-4">
-    {% for item in site.data.publications %}
-    <div class="content">
-        <h3>{{ item.title }}</h3>
-        <p><b>Authors: </b> {{ item.authors }} <p>
-        <p><b>Comments: </b> {{ item.comments }}</p>
-        <h6 > Dated {{ item.date }}; <a href="{{item.doi}}"> <b>doi</b></a> </h6>
-    </div>
-    <hr />
-    {% endfor %}
-</div>
+<bibtex src="/assets/references/publications.bib"></bibtex>
+<div id="bibtex_display"></div>

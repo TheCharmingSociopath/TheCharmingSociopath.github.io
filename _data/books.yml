@@ -2,16 +2,23 @@ meta:
   currently_reading:
     - title: The Essex Serpent
       author: Sarah Perry
+      comments: Gifted to me by Prof. Nazia Akhtar, IIIT Hyderabad. 
 
 books_read:
   - title: Born a Crime
     author: Trevor Noah
+    stars: 4
+    comments: Gifted to me by my Shayna Arora and Ashish Gupta (My wonderful manager at my short stint in the industry).
   - title: "Genius: The Life and Science of Richard Feynman"
     author: James Gleick
+    stars: 5
   - title: Harry Potter and The Methods of Rationality
     author: Eliezer Yudkowsky
+    stars: 5
   - title: "Logicomix: An Epic Search for Truth"
     author: Apostolos Doxiadis, Christos Papadimitriou, Alecos Papadatos (Art), Annie Di Donna (Colour)
+    comments: The illustrations. Each frame is a work of art. The colours are so fucking beautiful. Enjoyed every page of this book. Must read.
+    stars: 5
   - title: The Three Body Problem
     author: Cixin Liu (Author), Ken Liu (Translator)
   - title: Kafka on the Shore
@@ -70,31 +77,31 @@ books_read:
       - The Sword of Summer (2015)
       - The Hammer of Thor (2016)
       - The Ship of the Dead (2017)
-  - The Hitchhiker's Guide to the Galaxy
-  - The Devotion of Suspect X
-  - And The Mountains Echoed
-  - Kite Runner
-  - 1984
-  - Animal Farm
-  - Norwegian Wood
+  - title: The Hitchhiker's Guide to the Galaxy
+  - title: The Devotion of Suspect X
+  - title: And The Mountains Echoed
+  - title: Kite Runner
+  - title: 1984
+  - title: Animal Farm
+  - title: Norwegian Wood
   - series: Poirot
     author: Agatha Christie
     titles:
       - The ABC Murders
       - The Murder of Roger Ackroyd
       - Murder on the Orient Express
-  - And Then There Were None
-  - The Book Thief
-  - The Lord of the Rings
-  - Art of War
-  - Sapiens
-  - "Talk Like Ted"
-  - A briefer history of time
-  - Steve jobs iCon
-  - Alchemist
-  - The Spy
-  - Veroninka decides to die
-  - Seven Brief Lessons on Physics by Carlo Rovelli
+  - title: And Then There Were None
+  - title: The Book Thief
+  - title: The Lord of the Rings
+  - title: Art of War
+  - title: Sapiens
+  - title: "Talk Like Ted"
+  - title: A briefer history of time
+  - title: Steve jobs iCon
+  - title: Alchemist
+  - title: The Spy
+  - title: Veroninka decides to die
+  - title: Seven Brief Lessons on Physics by Carlo Rovelli
 
 wishlist:
   - "The Great Degeneration: How Institutions Decay and Economies Die"
