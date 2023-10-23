@@ -1,21 +1,17 @@
-I'm Aditya Morolia, Research Assistant at Centre for Quantum Technologies (CQT), National University of Singapore (NUS).
-I did my bachelors in CS from IIIT Hyderabad, and masters from [CQST, IIIT Hyderabad](https://cqst.iiit.ac.in/) advised by Prof. [Shantanav Chakraborty](https://sites.google.com/view/shchakra) and Prof [Indranil Chakrabarty](https://sites.google.com/view/indranilchakrabarty/).
+Currently I'm a research assistant at [Centre for Quantum Technologies (CQT)](https://quantumlah.org), National University of Singapore (NUS).
+Before this I did a joint bachelors and masters in CS from IIIT Hyderabad, affiliated with [CSTAR, IIIT Hyderabad](http://cstar.iiit.ac.in) and [CQST, IIIT Hyderabad](https://cqst.iiit.ac.in/) where I was fortunate to be advised by Prof. [Shantanav Chakraborty](https://sites.google.com/view/shchakra) and Prof [Indranil Chakrabarty](https://sites.google.com/view/indranilchakrabarty/).
 
 ### Research Interests
 
-I'm broadly interested in theoretical computer science (especially complexity theory, algorithms) and numerical analysis.
-In the past I've worked on Variable-Time Quantum Algorithms for Regularized Linear Regression using Quantum Singular Value Transformation.
-Next, I would like to explore how these techniques can be used to solve other linear algebra problems, in simulating systems in physics and chemistry, and in optimization and machine learning.
-I also explored scientific computing and reinforcement learning through projects on graph NNs and freelance projects. I would love to learn and work on these in the future.
+I'm broadly interested in theoretical computer science (especially algorithms and complexity theory) and numerical analysis.
 You can find my publications [here](/publications).
 You can find some other stuff written by me [here](/academia/).
 
 ### About Me
 
-In my free time I like to read and watch Sci-Fi and Fantasy. I also read about political science and economics frequently. You can find some of the books I've read [here](/reading/).
-I love to work out, run and practice Martial Arts.
+I love to lift weights, jog and practice Martial Arts.
+In my free time I like to read and watch Sci-Fi. You can find some of the books and papers I like [here](/reading/).
 I love to code and read about large software systems. You can find some of the projects I've worked on [here](/projects/).
-I'm a chaotic good druid forver <i class="fa fa-hand-peace"></i>. Occasionally can pose as a bard too xD.
-I read that writing helps collect one's thoughts and remember things for longer. I sometimes write about random stuff [here](/blog/).
+I'm probably a chaotic good druid <i class="fa fa-hand-peace"></i> although I occasionally identify as a bard xD.
 Feel free to reach out to me about stuff you think I'll like, or talk about whatever.
 
