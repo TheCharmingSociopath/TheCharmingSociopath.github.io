@@ -5,4 +5,28 @@ permalink: /projects/
 weight: 1
 ---
 
-{% include projects/index.html %}
+<div class="card-columns m-3 mt-5" style="column-count: 4;">
+
+  <!-- Local Projects -->
+  {% for project in site.data.projects %}
+
+    {%- assign project_type  = "local" -%}
+    {%- assign project_id    = project.name | slugify -%}
+    {%- if project.image -%}
+    {%- assign project_img   = {{site.url}} | append: project.image -%}
+    {%- endif -%}
+    {%- assign project_name  = project.name -%}
+    {%- assign project_desc  = project.description -%}
+    {%- assign project_tools = project.tools -%}
+
+    {%- if project.external_url -%}
+      {%- assign project_url = project.external_url -%}
+    {%- else -%}
+      {%- assign project_url = project.url | relative_url -%}
+    {%- endif -%}
+
+    {% include project-card.html %}
+
+  {% endfor %}
+
+</div>
