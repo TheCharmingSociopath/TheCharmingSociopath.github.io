@@ -10,7 +10,8 @@ Before this I did a joint bachelors and masters in CS from IIIT Hyderabad, affil
 
 I'm broadly interested in theoretical computer science (especially algorithms and complexity theory) and numerical analysis.
 You can find my publications [here](/publications).
-You can find some other stuff written by me [here](/academia/).
+
+My CV (Updated 3 Dec 2023) **[PDF](../assets/documents/cv.pdf)** 
 
 ### About Me
 
