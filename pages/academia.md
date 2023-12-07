@@ -6,7 +6,7 @@ permalink: /academia/
 ---
 
 #### Writings on Quantum Computing
-- My MS thesis can be found [here](../assets/documents/Aditya-Morolia-Thesis-Final_(1).pdf)
+- My MS thesis can be found [here](../assets/documents/thesis.pdf)
 - I took up an independent study under Prof. Shantanav Chakraborty on Adiabatic Quantum Computing and Optimization. Here is the [report](../assets/documents/Adiabatic Quantum Computing and Optimization.pdf) I wrote for the same. It contains a bunch of paper reviews and some random readings.
 - I credited a course called Open Quantum Systems and Quantum Thermodynamics in monsoon 2020. As a part of the project, I was given a master equation for a Qubit system, and was supposed to analyse it. Here is [my work](../assets/documents/Open_Quantum_Systems_Project.pdf).
 - Long long ago, when I had started learning quantum computing and information theory, I wrote some notes. Might be helpful to beginners. This contains theoretical introduction to QC, and some basic Qiskit I learned back then (which is pretty much useless by now I assume), along with some random notes and research paper summaries. [My notes on Quantum Computing](../assets/documents/Quantum_Notes.pdf)
