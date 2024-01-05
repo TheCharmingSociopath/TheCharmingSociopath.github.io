@@ -1,4 +1,5 @@
 ### Site Settings ###
+theme: jekyll-theme-slate
 title               : Aditya Morolia
 description         : >-
                       Hi, I'm Aditya Morolia.
