@@ -8,7 +8,7 @@ Before this I did a joint bachelors and masters in CS from IIIT Hyderabad, affil
 
 ### Research Interests
 
-I'm broadly interested in theoretical computer science (especially algorithms and complexity theory) and numerical analysis.
+My research interests span theoretical computer science, but I particularly like algorithms (approximation and quantum algorithms, applied to optimization, natural sciences, and numerical analysis), and complexity theory (hardness, non-approximability and its connections to cryptography and physics).
 You can find my publications [here](/publications).
 
 My CV (Updated 3 Dec 2023) **[PDF](../assets/documents/cv.pdf)** 
