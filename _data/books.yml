@@ -1,10 +1,15 @@
 meta:
   currently_reading:
-    - title: The Essex Serpent
-      author: Sarah Perry
-      comments: Gifted to me by Prof. Nazia Akhtar, IIIT Hyderabad. 
-
+    - title: "In a Flight of Starlings: The Wonders of Complex Systems"
+      author: Giorgio Parisi
 books_read:
+  - title: The Essex Serpent
+    author: Sarah Perry
+    comments: Gifted to me by Prof. Nazia Akhtar, IIIT Hyderabad. 
+  - title: Uncle Petros and Goldbach's Conjecture
+    author: Apostolos Doxiadis
+  - title: How the World Works
+    author: Noam Chomsky 
   - title: Born a Crime
     author: Trevor Noah
     stars: 4
