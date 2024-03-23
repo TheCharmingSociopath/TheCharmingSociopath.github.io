@@ -5,11 +5,14 @@ meta:
 books_read:
   - title: The Essex Serpent
     author: Sarah Perry
+    stars: 4
     comments: Gifted to me by Prof. Nazia Akhtar, IIIT Hyderabad. 
   - title: Uncle Petros and Goldbach's Conjecture
     author: Apostolos Doxiadis
+    stars: 5
   - title: How the World Works
     author: Noam Chomsky 
+    stars: 5
   - title: Born a Crime
     author: Trevor Noah
     stars: 4
