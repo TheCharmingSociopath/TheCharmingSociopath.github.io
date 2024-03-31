@@ -3,6 +3,13 @@ meta:
     - title: "In a Flight of Starlings: The Wonders of Complex Systems"
       author: Giorgio Parisi
 books_read:
+  - title: Nietzsche for Beginners
+    author: Marc Sautet
+    stars: 3
+    comments: Cute little graphic novel. Hard to understand for beginners. 
+  - title: SuperFreakonomics
+    author: Steven Levitt, Stephen J. Dubner
+    stars: 5
   - title: The Essex Serpent
     author: Sarah Perry
     stars: 4
