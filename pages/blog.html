@@ -5,10 +5,12 @@ weight: 2
 permalink: /blog/
 ---
 {% include blog/search.html %}
-<div class="card-columns m-3 mt-5" style="column-count: 1;">
+<div>
 
   {% for post in site.posts %}
-    {% include blog/post-card.html %}
+    {% include blog/post-list-item.html %}
+    <hr/>
+    <!-- {% include blog/post-card.html %} -->
   {% endfor %}
   
 </div>
