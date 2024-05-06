@@ -6,6 +6,8 @@ permalink: /
 Currently I'm a research assistant at [Centre for Quantum Technologies (CQT)](https://quantumlah.org), National University of Singapore (NUS).
 Before this I did a joint bachelors and masters in CS from IIIT Hyderabad, affiliated with [CSTAR, IIIT Hyderabad](http://cstar.iiit.ac.in) and [CQST, IIIT Hyderabad](https://cqst.iiit.ac.in/) where I was fortunate to be advised by Prof. [Shantanav Chakraborty](https://sites.google.com/view/shchakra) and Prof [Indranil Chakrabarty](https://sites.google.com/view/indranilchakrabarty/).
 
+<span style="color:red">[NEWS]</span> Starting August 2024, I'll be joining [NUS School of Computing](https://www.comp.nus.edu.sg) as a PhD student under the supervision of [Prof. Divesh Aggarwal](https://sites.google.com/site/diveshhomepage/)!
+
 ### Research Interests
 
 My research interests span theoretical computer science, but I particularly like algorithms (approximation and quantum algorithms, applied to optimization, natural sciences, and numerical analysis), and complexity theory (hardness, non-approximability and its connections to cryptography and physics).
