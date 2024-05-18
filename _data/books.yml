@@ -1,8 +1,11 @@
 meta:
   currently_reading:
-    - title: "In a Flight of Starlings: The Wonders of Complex Systems"
-      author: Giorgio Parisi
+    - title: "Stories of your life and others."
+      author: Ted Chiang
 books_read:
+  - title: "In a Flight of Starlings: The Wonders of Complex Systems"
+    author: Giorgio Parisi
+    stars: 5
   - title: Nietzsche for Beginners
     author: Marc Sautet
     stars: 3
