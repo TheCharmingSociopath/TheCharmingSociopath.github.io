@@ -1,11 +1,23 @@
 meta:
   currently_reading:
-    - title: "Stories of your life and others."
+    - title: "Destined for War: Can America and China Escape Thucydides’s Trap?"
+      author: Graham Allison
+    - title: "Einstein: His Life and Universe"
+      author: Walter Isaacson
+    - title: Stories of Your Life and Others
       author: Ted Chiang
 books_read:
+  - title: "The Theoretical Minimum: What You Need to Know to Start Doing Physics"
+    author: Leonard Susskind and George Hrabovsky
+    stars: 5
+    comments: Really comprehensive, beginner friendly, easy read.
+  - title: "Surely You're Joking, Mr. Feynman!"
+    author: Ralph Leighton and Richard Feynman
+    stars: 5
+    comments: What a brilliant man. Must read. 
   - title: "In a Flight of Starlings: The Wonders of Complex Systems"
     author: Giorgio Parisi
-    stars: 5
+    stars: 4
   - title: Nietzsche for Beginners
     author: Marc Sautet
     stars: 3
@@ -20,6 +32,7 @@ books_read:
   - title: Uncle Petros and Goldbach's Conjecture
     author: Apostolos Doxiadis
     stars: 5
+    comments: Unexpectedly haunting and beautiful. 
   - title: How the World Works
     author: Noam Chomsky 
     stars: 5
