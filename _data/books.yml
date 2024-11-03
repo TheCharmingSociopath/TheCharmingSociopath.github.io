@@ -2,11 +2,37 @@ meta:
   currently_reading:
     - title: "Destined for War: Can America and China Escape Thucydides’s Trap?"
       author: Graham Allison
-    - title: "Einstein: His Life and Universe"
-      author: Walter Isaacson
     - title: Stories of Your Life and Others
       author: Ted Chiang
 books_read:
+  # - title: ""
+  #   author:
+  #   stars: 
+  #   comments:
+
+  - title: "Einstein: His Life and Universe"
+    author: Walter Isaacson
+    stars: 3
+    comments: Really don't know how to rate this. It is a slow read, a bit boring at times. Or maybe I'm just not that into biographies. It is very well written, and I did enjoy it. Time well spent, and I'd do it again. 
+  - title: "The Man in the Brown Suit"
+    author: Agatha Christie
+    stars: 4 
+  - title: "The Mystery of the Blue Train"
+    author: Agatha Christie
+    stars: 4 
+  - title: "The Secret Adversary"
+    author: Agatha Christie
+    stars: 4 
+  - title: "The Mysterious Affair at Styles"
+    author: Agatha Christie
+    stars: 4 
+  - title: "Poirot Investigates"
+    author: Agatha Christie
+    stars: 4 
+  - title: "Secret of Chimneys"
+    author: Agatha Christie
+    stars: 4
+    comments: Recently discovered audiobooks, and I'm hooked. 
   - title: "The Theoretical Minimum: What You Need to Know to Start Doing Physics"
     author: Leonard Susskind and George Hrabovsky
     stars: 5
@@ -39,7 +65,7 @@ books_read:
   - title: Born a Crime
     author: Trevor Noah
     stars: 4
-    comments: Gifted to me by my Shayna Arora and Ashish Gupta (My wonderful manager at my short stint in the industry).
+    comments: Gifted to me by Shayna Arora and Ashish Gupta (My wonderful manager at my short stint in the industry).
   - title: "Genius: The Life and Science of Richard Feynman"
     author: James Gleick
     stars: 5
