@@ -1,18 +1,21 @@
 meta:
   currently_reading:
-    - title: "Destined for War: Can America and China Escape Thucydides’s Trap?"
-      author: Graham Allison
-    - title: Stories of Your Life and Others
-      author: Ted Chiang
+    - title: "Cryptonomicon"
+      author: Neal Stephenson
+    - title: "South of the Border, West of the Sun"
+      author: Haruki Murakami
 books_read:
   # - title: ""
   #   author:
   #   stars: 
   #   comments:
 
+  - title: Stories of Your Life and Others
+    author: Ted Chiang
+    stars: 5
   - title: "Einstein: His Life and Universe"
     author: Walter Isaacson
-    stars: 3
+    stars: 4
     comments: Really don't know how to rate this. It is a slow read, a bit boring at times. Or maybe I'm just not that into biographies. It is very well written, and I did enjoy it. Time well spent, and I'd do it again. 
   - title: "The Man in the Brown Suit"
     author: Agatha Christie
@@ -159,145 +162,4 @@ books_read:
   - title: The Spy
   - title: Veroninka decides to die
   - title: Seven Brief Lessons on Physics by Carlo Rovelli
-
-wishlist:
-  - Bullshit Jobs
-  - Is this anything? by Jerry Seinfeld
-  - The Singularity Is Near: When Humans Transcend Biology
-  - "Sinatra: The song is you"
-  - "Lee Kuan Yew: The Grand Master's Insights on China, the United States, and the World"
-  - "GRAVITY: An Introduction to Einstein's General Relativity by James B. Hartle"
-  - "Algebra: Chapter 0,  Paolo Aluffi"
-  - "The Wise Men: Six Friends and the World They Made"
-  - "The Knowledge Economy and Socialism: Science and Society in Cuba"
-  - "The Great Degeneration: How Institutions Decay and Economies Die"
-  - The Guns of August
-  - "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress"
-  - Anxious People
-  - Einstein’s Unfinished Revolution
-  - Something Deeply Hidden
-  - A History of Western Philosophy by Bertrand Russell
-  - When McKinsey Comes to Town
-  - Fathers and Sons 
-  - "https://www.goodreads.com/book/show/9844623-feynman"
-  - "https://www.goodreads.com/book/show/23847937-democracy"
-  - "https://www.goodreads.com/work/quotes/6642936"
-  - The Logic of Capital, An Introduction to Marxist Economic Theory
-  - The Armchair Economist
-  - The Undercover Economist
-  - How the mighty fall
-  - "The Reign of Wolf 21: The Saga of Yellowstone’s Legendary Druid Pack"
-  - Chaos Monkeys
-  - "Brain Bugs: How the Brain’s Flaws Shape our Lives"
-  - A new kind of science
-  - Uncle Petros and Goldbach's Conjecture
-  - South of the Border, West of the Sun by Haruki Murakami
-  - The Selfish Gene, by Richard Dawkins
-  - Quantum Computing Since Democritus
-  - Superintelligence, by Nick Bostrom
-  - How to Solve it
-  - How to prove it
-  - The harm in hate speech
-  - The great illusion
-  - Tools and weapons, Brad smith
-  - Diaspora by Greg Egan
-  - The House of Silk (Holmes) by Anthony Horowitz
-  - "Sybil: The Classic True Story of a Woman Possessed by Sixteen Personalities"
-  - Azaadi, Arundhati Roy
-  - HARD WIRED by Len Vlahos
-  - On numbers and games
-  - Homo deus
-  - Catch 22
-  - Hystopia
-  - Godel, Escher and Bach
-  - The art of learning, Josh weitzkin
-  - Brave new world
-  - Lolita
-  - Chaos
-  - The google story
-  - Red plenty
-  - The Book of five rings
-  - The Tao of Jeet kuon do
-  - SANCTUARY By Paola Mendoza and Abby Sher
-  - Grapes of wrath
-  - Gödel’s proof, by Ernest Nagel
-  - Eighth day of creation
-  - The year of yes
-  - The existentialist cafe
-  - The second sex
-  - Paradoxical PM
-  - The book of disquiet
-  - Jonathan Livingston seagull
-  - The harm in hate speech
-  - Manufacturing concept
-  - Ringworld
-  - My Sister, The Serial Killer
-  - The Calcutta chromosome
-  - One hundred years of solitude
-  - A billion wicked thoughts
-  - Bluest eye
-  - Three body problem
-  - The outsider, Camus
-  - rokeya sakhawat hossain
-  - Lotka Stuff
-  - Mahasweta Devi
-  - Street Corner Society
-  - Banality of evil
-  - Gang leader for a day, Sudhir Venkatesh
-  - Biomimicry
-  - The inner game of tennis, Timothy gallwey
-  - The secret lives of colour, Kassia st. Clair
-  - "Megatech: Technology in 2050"
-  - Working with emotional intelligence, Daniel Goleman
-  - How the mighty fall
-  - And tango makes three, Justin Richardson
-  - ttyl, ttfn, l8r, g8r, Laurren Myracle
-  - Satanic Verses, Salman Rushdie
-  - midnight's Children, Salman Rushdie
-  - Catcher in the Rye, J. D. Salinger
-  - Of mice and men, John Steinbeck
-  - Brave new world, Aldous Huxley
-  - Call of the wild, jack london
-  - The adventures of huckleberry finn, Mark Twain
-  - The Communist Manifesto
-  - Jonathan Livingston Seagull, Richard Bach
-  - Fools Die, Mario Puzo
-  - Naga series, Amish tripathi
-  - Great expectations
-  - Paradise lost, by john Milton
-  - Arms and the man, by George Bernard Shaw
-  - 7 day start-up
-  - Rich dad poor dad
-  - House of leaves
-  - Catch 22
-  - Asura-tale of the vanquished
-  - Prestige
-  - Nora Roberts skin deep
-  - Footprints of god
-  - The tibetan book of the dead,, robert a f thruman
-  - The girl on the train, paula hawkins
-  - Sacred music, alain danielou
-  - Train to pakistan
-  - The Cuckoo’s Egg
-  - Boltzmann's atom
-  - "https://www.goodreads.com/book/show/39299972-john-von-neumann-as-seen-by-his-brother"
-  - Prisoners of Geography
-  - "When Reason Goes on Holiday: Philosophers in Politics"
-  - "The Fog of War: Eleven Lessons from the Life of Robert S. McNamara"
-  - "The Ancient City: A Study of the Religion, Laws, and Institutions of Greece and Rome"
-  - "Blitzed: Drugs in Nazi Germany by Norman Ohler  ***********"
-  - "The Mythical Man-Month"
-  - "Mathematical Muffin Morsels: Nobody Wants a Small Piece (Problem Solving in Mathematics and Beyond)"
-  - "On the Road, Jack Kerouac"
-  - "The Denial of Death, Ernest Becker"
-  - "Dictionary of Word Origins: The Histories of More Than 8,000 English-Language Words"
-  - "The Network State"
-
-short_stories_to_read:
-  - Flowers of Algernon
-  - The country without a post office
-  - The hunger artist
-  - The valorisation Enthalpy of a peculiar Pakistani family
-  - Bring your own spoon by Saad Z Hossain
-
 
