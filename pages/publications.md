@@ -5,10 +5,14 @@ permalink: /publications/
 weight: 1
 ---
 
+## Papers
+
 <bibtex src="/assets/references/publications.bib"></bibtex>
 <div id="bibtex_display"></div>
 
 ---
+
+## Notes
 
 - My MS thesis can be found [here](../assets/documents/thesis.pdf) <br/>
 - [Notes](../assets/documents/Adiabatic Quantum Computing and Optimization.pdf) on Adiabatic Quantum Computing and Optimization <br/>
