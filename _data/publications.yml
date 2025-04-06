@@ -1,7 +1,60 @@
-- title: Quantum Regularized Least Squares
-  authors: Shantanav Chakraborty, <b>Aditya Morolia</b>, Anurudh Peduri
-  date: 27 June 2022
-  comments: Accepted in Quantum Journal (click doi below), accepted as poster at QIP 2023.
-  doi: "https://doi.org/10.22331/q-2023-04-27-988"
+# - id: 
+#   title: 
+#   abstract:
+#   coauthors:
+#     - name: 
+#     - name: 
+#   where_published:
+#     - name: 
+#       doi: 
+#       date:
+#   arxiv:
+#   year:
 
+- id: CMP23
+  title: "Quantum Regularized Least Squares"
+  abstract: >
+    Linear regression is a widely used technique to fit linear models and finds widespread applications across different areas such as machine learning and statistics. In most real-world scenarios, however, linear regression problems are often ill-posed or the underlying model suffers from overfitting, leading to erroneous or trivial solutions. This is often dealt with by adding extra constraints, known as regularization. In this paper, we use the frameworks of block-encoding and quantum singular value transformation (QSVT) to design the first quantum algorithms for quantum least squares with general $\ell_2$-regularization. These include regularized versions of quantum ordinary least squares, quantum weighted least squares, and quantum generalized least squares. Our quantum algorithms substantially improve upon prior results on quantum ridge regression (polynomial improvement in the condition number and an exponential improvement in accuracy), which is a particular case of our result.
+    To this end, we assume approximate block-encodings of the underlying matrices as input and use robust QSVT algorithms for various linear algebra operations. In particular, we develop a variable-time quantum algorithm for matrix inversion using QSVT, where we use quantum eigenvalue discrimination as a subroutine instead of gapped phase estimation. This ensures that substantially fewer ancilla qubits are required for this procedure than prior results. Owing to the generality of the block-encoding framework, our algorithms are applicable to a variety of input models and can also be seen as improved and generalized versions of prior results on standard (non-regularized) quantum least squares algorithms.
+  coauthors:
+    - name: Shantanav Chakraborty
+      url: https://sites.google.com/view/shchakra
+    - name: Anurudh Peduri
+      url: https://anurudhp.github.io
+  where:
+    - name: Quantum Journal, April 2023
+      doi: https://doi.org/10.22331/q-2023-04-27-988
+  arxiv: "https://arxiv.org/abs/2206.13143v3"
+  year: 2022
+
+- id: DGLM24
+  title: "On the practicality of quantum sieving algorithms for the shortest vector problem"
+  abstract: >
+    One of the main candidates of post-quantum cryptography is lattice-based cryptography. Its cryptographic security against quantum attackers is based on the worst-case hardness of lattice problems like the shortest vector problem (SVP), which asks to find the shortest non-zero vector in an integer lattice. Asymptotic quantum speedups for solving SVP are known and rely on Grover's search. However, to assess the security of lattice-based cryptography against these Grover-like quantum speedups, it is necessary to carry out a precise resource estimation beyond asymptotic scalings. In this work, we perform a careful analysis on the resources required to implement several sieving algorithms aided by Grover's search for dimensions of cryptographic interests. For such, we take into account fixed-point quantum arithmetic operations, non-asymptotic Grover's search, the cost of using quantum random access memory (QRAM), different physical architectures, and quantum error correction. We find that even under very optimistic assumptions like circuit-level noise of $10^{-5}$, code cycles of 100 ns, reaction time of 1 $\mu$s, and using state-of-the-art arithmetic circuits and quantum error-correction protocols, the best sieving algorithms require $\approx 10^{13}$ physical qubits and $\approx 10^{31}$ years to solve SVP on a lattice of dimension 400, which is roughly the dimension for minimally secure post-quantum cryptographic standards currently being proposed by NIST. We estimate that a 6-GHz-clock-rate single-core classical computer would take roughly the same amount of time to solve the same problem. We conclude that there is currently little to no quantum speedup in the dimensions of cryptographic interest and the possibility of realising a considerable quantum speedup using quantum sieving algorithms would require significant breakthroughs in theoretical protocols and hardware development.
+  coauthors:
+    - name: Joao F. Doriguello
+      url: https://joaodoriguello.com
+    - name: George Giapitzakis
+      url: https://ggiapitz.me
+    - name: Alessandro Luongo
+      url: https://luongo.pro
+  where:
+    - name: QCTIP 2025
+  arxiv: "https://arxiv.org/abs/2410.13759"
+  year: 2024
+
+- id: AGM25
+  title: "Mind the Gap? Not for SVP Hardness under ETH!"
+  abstract: >
+    We prove new hardness results for fundamental lattice problems under the Exponential Time Hypothesis (ETH). Building on a recent breakthrough by Bitansky et al. [BHIRW24], who gave a polynomial-time reduction from $\mathsf{3SAT}$ to the (gap) $\mathsf{MAXLIN}$ problem-a class of CSPs with linear equations over finite fields-we derive ETH-hardness for several lattice problems.
+    First, we show that for any $p \in [1, \infty)$, there exists an explicit constant $\gamma > 1$ such that $\mathsf{CVP}_{p,\gamma}$ (the $\ell_p$-norm approximate Closest Vector Problem) does not admit a $2^{o(n)}$-time algorithm unless ETH is false. Our reduction is deterministic and proceeds via a direct reduction from (gap) $\mathsf{MAXLIN}$ to $\mathsf{CVP}_{p,\gamma}$.
+    Next, we prove a randomized ETH-hardness result for $\mathsf{SVP}_{p,\gamma}$ (the $\ell_p$-norm approximate Shortest Vector Problem) for all $p > 2$. This result relies on a novel property of the integer lattice $\mathbb{Z}^n$ in the $\ell_p$ norm and a randomized reduction from $\mathsf{CVP}_{p,\gamma}$ to $\mathsf{SVP}_{p,\gamma'}$.
+    Finally, we improve over prior reductions from $\mathsf{3SAT}$ to $\mathsf{BDD}_{p, \alpha}$ (the Bounded Distance Decoding problem), yielding better ETH-hardness results for $\mathsf{BDD}_{p, \alpha}$ for any $p \in [1, \infty)$ and $\alpha > \alpha_p^{\ddagger}$, where $\alpha_p^{\ddagger}$ is an explicit threshold depending on $p$.
+    We additionally observe that prior work implies ETH hardness for the gap minimum distance problem ($\gamma$-$\mathsf{MDP}$) in codes.
+  coauthors:
+    - name: Divesh Aggarwal
+      url: https://sites.google.com/site/diveshhomepage/
+    - name: Rishav Gupta
+  arxiv: https://arxiv.org/abs/2504.02695
+  year: 2025
 

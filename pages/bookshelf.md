@@ -12,8 +12,6 @@ permalink: /reading/
 
 ---
 
-<!-- <bibtex src="/assets/references/papers-i-love.bib"></bibtex> -->
-
 <div>
     <div style="text-align: center; margin: 25px;"> <h5> Books I'm Currently Reading </h5> </div>
     <ul style="margin-top: 30px;">
@@ -31,13 +29,6 @@ permalink: /reading/
 </div>
 
 ---
-
-<!-- <div> -->
-<!--     <div style="text-align: center; margin: 25px;"> <h5> Papers I love </h5> </div> -->
-<!--     <div id="bibtex_display"></div> -->
-<!-- </div> -->
-<!--  -->
-<!-- --- -->
 
 <div>
     <div style="text-align: center; margin: 25px;"> <h5> Some Books I've Read in the Past </h5> </div>
@@ -70,4 +61,3 @@ permalink: /reading/
         {% endfor %}
     </ul>
 </div>
-

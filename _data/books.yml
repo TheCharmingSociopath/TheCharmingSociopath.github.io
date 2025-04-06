@@ -4,12 +4,18 @@ meta:
       author: Neal Stephenson
     - title: "South of the Border, West of the Sun"
       author: Haruki Murakami
+    - title: "Termination Shock"
+      author: Neal Stephenson
 books_read:
   # - title: ""
   #   author:
   #   stars: 
   #   comments:
 
+  - title: Dune
+    author: Frank Herbert
+    stars: 5
+    comments: Audiobook. 
   - title: Stories of Your Life and Others
     author: Ted Chiang
     stars: 5
