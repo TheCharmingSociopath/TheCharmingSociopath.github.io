@@ -11,21 +11,20 @@
 #   arxiv:
 #   year:
 
-- id: CMP23
-  title: "Quantum Regularized Least Squares"
+- id: AGM25
+  title: "Mind the Gap? Not for SVP Hardness under ETH!"
   abstract: >
-    Linear regression is a widely used technique to fit linear models and finds widespread applications across different areas such as machine learning and statistics. In most real-world scenarios, however, linear regression problems are often ill-posed or the underlying model suffers from overfitting, leading to erroneous or trivial solutions. This is often dealt with by adding extra constraints, known as regularization. In this paper, we use the frameworks of block-encoding and quantum singular value transformation (QSVT) to design the first quantum algorithms for quantum least squares with general $\ell_2$-regularization. These include regularized versions of quantum ordinary least squares, quantum weighted least squares, and quantum generalized least squares. Our quantum algorithms substantially improve upon prior results on quantum ridge regression (polynomial improvement in the condition number and an exponential improvement in accuracy), which is a particular case of our result.
-    To this end, we assume approximate block-encodings of the underlying matrices as input and use robust QSVT algorithms for various linear algebra operations. In particular, we develop a variable-time quantum algorithm for matrix inversion using QSVT, where we use quantum eigenvalue discrimination as a subroutine instead of gapped phase estimation. This ensures that substantially fewer ancilla qubits are required for this procedure than prior results. Owing to the generality of the block-encoding framework, our algorithms are applicable to a variety of input models and can also be seen as improved and generalized versions of prior results on standard (non-regularized) quantum least squares algorithms.
+    We prove new hardness results for fundamental lattice problems under the Exponential Time Hypothesis (ETH). Building on a recent breakthrough by Bitansky et al. [BHIRW24], who gave a polynomial-time reduction from $\mathsf{3SAT}$ to the (gap) $\mathsf{MAXLIN}$ problem-a class of CSPs with linear equations over finite fields-we derive ETH-hardness for several lattice problems.
+    First, we show that for any $p \in [1, \infty)$, there exists an explicit constant $\gamma > 1$ such that $\mathsf{CVP}_{p,\gamma}$ (the $\ell_p$-norm approximate Closest Vector Problem) does not admit a $2^{o(n)}$-time algorithm unless ETH is false. Our reduction is deterministic and proceeds via a direct reduction from (gap) $\mathsf{MAXLIN}$ to $\mathsf{CVP}_{p,\gamma}$.
+    Next, we prove a randomized ETH-hardness result for $\mathsf{SVP}_{p,\gamma}$ (the $\ell_p$-norm approximate Shortest Vector Problem) for all $p > 2$. This result relies on a novel property of the integer lattice $\mathbb{Z}^n$ in the $\ell_p$ norm and a randomized reduction from $\mathsf{CVP}_{p,\gamma}$ to $\mathsf{SVP}_{p,\gamma'}$.
+    Finally, we improve over prior reductions from $\mathsf{3SAT}$ to $\mathsf{BDD}_{p, \alpha}$ (the Bounded Distance Decoding problem), yielding better ETH-hardness results for $\mathsf{BDD}_{p, \alpha}$ for any $p \in [1, \infty)$ and $\alpha > \alpha_p^{\ddagger}$, where $\alpha_p^{\ddagger}$ is an explicit threshold depending on $p$.
+    We additionally observe that prior work implies ETH hardness for the gap minimum distance problem ($\gamma$-$\mathsf{MDP}$) in codes.
   coauthors:
-    - name: Shantanav Chakraborty
-      url: https://sites.google.com/view/shchakra
-    - name: Anurudh Peduri
-      url: https://anurudhp.github.io
-  where:
-    - name: Quantum Journal, April 2023
-      doi: https://doi.org/10.22331/q-2023-04-27-988
-  arxiv: "https://arxiv.org/abs/2206.13143v3"
-  year: 2022
+    - name: Divesh Aggarwal
+      url: https://sites.google.com/site/diveshhomepage/
+    - name: Rishav Gupta
+  arxiv: https://arxiv.org/abs/2504.02695
+  year: 2025
 
 - id: DGLM24
   title: "On the practicality of quantum sieving algorithms for the shortest vector problem"
@@ -43,18 +42,19 @@
   arxiv: "https://arxiv.org/abs/2410.13759"
   year: 2024
 
-- id: AGM25
-  title: "Mind the Gap? Not for SVP Hardness under ETH!"
-  abstract: >
-    We prove new hardness results for fundamental lattice problems under the Exponential Time Hypothesis (ETH). Building on a recent breakthrough by Bitansky et al. [BHIRW24], who gave a polynomial-time reduction from $\mathsf{3SAT}$ to the (gap) $\mathsf{MAXLIN}$ problem-a class of CSPs with linear equations over finite fields-we derive ETH-hardness for several lattice problems.
-    First, we show that for any $p \in [1, \infty)$, there exists an explicit constant $\gamma > 1$ such that $\mathsf{CVP}_{p,\gamma}$ (the $\ell_p$-norm approximate Closest Vector Problem) does not admit a $2^{o(n)}$-time algorithm unless ETH is false. Our reduction is deterministic and proceeds via a direct reduction from (gap) $\mathsf{MAXLIN}$ to $\mathsf{CVP}_{p,\gamma}$.
-    Next, we prove a randomized ETH-hardness result for $\mathsf{SVP}_{p,\gamma}$ (the $\ell_p$-norm approximate Shortest Vector Problem) for all $p > 2$. This result relies on a novel property of the integer lattice $\mathbb{Z}^n$ in the $\ell_p$ norm and a randomized reduction from $\mathsf{CVP}_{p,\gamma}$ to $\mathsf{SVP}_{p,\gamma'}$.
-    Finally, we improve over prior reductions from $\mathsf{3SAT}$ to $\mathsf{BDD}_{p, \alpha}$ (the Bounded Distance Decoding problem), yielding better ETH-hardness results for $\mathsf{BDD}_{p, \alpha}$ for any $p \in [1, \infty)$ and $\alpha > \alpha_p^{\ddagger}$, where $\alpha_p^{\ddagger}$ is an explicit threshold depending on $p$.
-    We additionally observe that prior work implies ETH hardness for the gap minimum distance problem ($\gamma$-$\mathsf{MDP}$) in codes.
-  coauthors:
-    - name: Divesh Aggarwal
-      url: https://sites.google.com/site/diveshhomepage/
-    - name: Rishav Gupta
-  arxiv: https://arxiv.org/abs/2504.02695
-  year: 2025
 
+- id: CMP23
+  title: "Quantum Regularized Least Squares"
+  abstract: >
+    Linear regression is a widely used technique to fit linear models and finds widespread applications across different areas such as machine learning and statistics. In most real-world scenarios, however, linear regression problems are often ill-posed or the underlying model suffers from overfitting, leading to erroneous or trivial solutions. This is often dealt with by adding extra constraints, known as regularization. In this paper, we use the frameworks of block-encoding and quantum singular value transformation (QSVT) to design the first quantum algorithms for quantum least squares with general $\ell_2$-regularization. These include regularized versions of quantum ordinary least squares, quantum weighted least squares, and quantum generalized least squares. Our quantum algorithms substantially improve upon prior results on quantum ridge regression (polynomial improvement in the condition number and an exponential improvement in accuracy), which is a particular case of our result.
+    To this end, we assume approximate block-encodings of the underlying matrices as input and use robust QSVT algorithms for various linear algebra operations. In particular, we develop a variable-time quantum algorithm for matrix inversion using QSVT, where we use quantum eigenvalue discrimination as a subroutine instead of gapped phase estimation. This ensures that substantially fewer ancilla qubits are required for this procedure than prior results. Owing to the generality of the block-encoding framework, our algorithms are applicable to a variety of input models and can also be seen as improved and generalized versions of prior results on standard (non-regularized) quantum least squares algorithms.
+  coauthors:
+    - name: Shantanav Chakraborty
+      url: https://sites.google.com/view/shchakra
+    - name: Anurudh Peduri
+      url: https://anurudhp.github.io
+  where:
+    - name: Quantum Journal, April 2023
+      doi: https://doi.org/10.22331/q-2023-04-27-988
+  arxiv: "https://arxiv.org/abs/2206.13143v3"
+  year: 2022
