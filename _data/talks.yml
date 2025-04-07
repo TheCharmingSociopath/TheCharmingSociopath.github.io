@@ -1,0 +1,77 @@
+# - title: 
+#   date:
+#   where: 
+#   location: 
+#   abstract:
+
+- title: Quantum vs. classical complexity of learning total functions from oracles, and formalising learnability.
+  date: Friday, 21 March 2025, 2:00 PM
+  where: Divesh's Group Seminars
+  location: "COM1-03-19 - Meeting Rm 1 @ COM1"
+  abstract: >
+    Suppose I give you an arbitrary oracle that encodes a total Boolean function $f$. How many queries would you need to learn the complete truth table of $f$? What about when I give you coherent access to the oracle as well, and you have a large enough quantum computer? We'll start with these questions, and try to learn how learning works, in the exact and PAC models.
+    This talk is roughly based on three papers: https://arxiv.org/abs/quant-ph/9805006 (FOCS'98), https://arxiv.org/abs/1001.0018 (IPL 2010) and https://arxiv.org/abs/quant-ph/0007036 (CCC2001). However, we will probably only see the first one with the gory details.
+
+- title: Lower bounds for lattice sieving via approximate nearest neighbour search.
+  date: 02 Feb, 2024, 12 noon.
+  where: Divesh's Group Seminars
+  location: COM3-02-70
+  abstract: >
+    The shortest (non-zero) vector problem (SVP) on a lattice forms the basis for a majority of the proposed post quantum cryptosystems. Lattice sieving is currently the best known algorithm to solve SVP. Given the importance of the problem, it has received significant attention in the past two decades, leading to several (largely heuristic) improvements over the initial ASK Sieve (https://dl.acm.org/doi/10.1145/380752.380857). Most improvements rely on locality sensitive hashing to speed up the approximate nearest neighbour search (which forms the core subroutine of lattice sieving.) In this talk, we present lower bounds for lattice sieving (Laarhoven, Crypto 2021), and for the approximate nearest neighbour search problem (Rubinstein, STOC 2018). We highlight the possibility of a stronger lower bound on lattice sieving via Rubinstein'18.
+
+- title: Lattice sieving via quantum random walks.
+  date:  6 Oct, 2023, 1pm
+  where: Divesh's Group Seminars
+  location: COM3-02-70
+  abstract: >
+    Building upon the contents of the talk in the previous week, we will first describe a framework for lattice sieving which can then be extended into novel classical and quantum algorithms for the shortest vector problems. We will mainly focus on the quantum algorithm using random walks on a Johnson graph, which achieves a SoTA asymptotic complexity.
+    Ref: https://dl.acm.org/doi/10.5555/2884435.2884437, https://eprint.iacr.org/2021/570.
+
+- title: Lattice sieving for shortest vector problem via nearest neighbour search.
+  date: 29 Sept, 2023, 1pm.
+  where: Divesh's Group Seminars
+  location: COM3-02-70
+  abstract: >
+    The asymptotic complexity of SVP and related problems is important to determine the NIST security standards for various lattice based encryption schemes. Today we will discuss how nearest neighbour search via random product codes and hashing can be used to create new algorithms for SVP. Ref:https://dl.acm.org/doi/10.5555/2884435.2884437, https://eprint.iacr.org/2021/570.
+
+- title: Quantum Computing for Software Engineers
+  date: March 2023
+  where: India Developers' Exchange, Goldman Sachs, Hyderabad
+  location: Hyderabad, India
+  abstract: Introducing Quantum Computing with the least amount of math possible.
+
+- title: CQT CS Talk on 'Quantum Algorithms for Regularized Least Squares'
+  date: November 2023
+  where: Centre for Quantum Technologies, Singapore
+  location: Centre for Quantum Technologies, Singapore
+  abstract: Gave a talk based on joint work on variable time quantum algorithms for least squares.
+
+- title: Introduction to Quantum Signal Processing and applications to Linear Systems
+  date: November 2023
+  where: Singapore QML Seminar
+  location: NUS, Singapore
+  abstract: Gave a talk based on joint work on variable time quantum algorithms for least squares.
+
+- title: Guest Lecture on 'Applications of Linear Algebra'
+  date: May 2022
+  where: IIIT Hyderabad
+  location: Hyderabad, India
+  abstract: I took a guest lecture for the Linear Algebra course taught by Prof. Siddhartha Das at IIIT Hyderabad. I covered rank-nullity theorem, eigenvalues and eigenvectors, with applications to toy problems in dynamical systems, graph theory and random walks.
+
+- title: Quanntum Signal Processing with applications to Linear Systems
+  date: April 2022
+  where: IIIT Hyderabad
+  location: Hyderabad, India
+  abstract: Introduction to block encodings, quantum signal processing, quantum singular value transformation and least squares optimization at CQST Talks, IIIT Hyderabad.
+
+- title: PCPs and Hardness of Approximation
+  date: January 2021
+  where: Theory Reading Group seminar, IIIT Hyderabad
+  location: Hyderabad, India
+  abstract: Brief intro to Dinur's proof of the PCP theorem.
+
+- title: Quantum Approximate Counting
+  date: August 2020
+  where: Theory Reading Group seminar, IIIT Hyderabad
+  location: Hyderabad, India
+  abstract: Started 'Seminar Saturdays', as a part of the 'Theory Reading Group' at IIIT Hyderabad by giving a talk on quantum approximate counting.
