@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Publications
-permalink: /publications/
+title: Research
+permalink: /research/
 weight: 1
 ---
 
