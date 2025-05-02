@@ -7,7 +7,6 @@
 
 .nav-link,
 .navbar-brand {
-  font-size: large;
   &::after {
     @extend .link-after;
     width: 0;

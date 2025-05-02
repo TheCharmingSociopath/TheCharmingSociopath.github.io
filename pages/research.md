@@ -34,6 +34,7 @@ weight: 1
 ### Academic Writings
 
 - Notes on [lattices](../assets/documents/Lattice_Notes.pdf) I helped write. This was when I was a teaching assistant for advanced algorithms (lattice algorithms) course taught by [Divesh](https://sites.google.com/site/diveshhomepage/). You probably also wanna look at Oded Regev's [notes](https://cims.nyu.edu/~regev/teaching/lattices_fall_2009/).
+- [Notes](../assets/documents/Pseudoentanglement.pdf) on Quantum Pseudoentanglement and pseudorandom quantum states I wrote with my friends from CQT.
 - Some [notes](../assets/documents/ANN25.pdf) on Approximate Nearest Neighbour Search I worked on with my friends from NUS.
 - My MS [thesis](../assets/documents/thesis.pdf), "Quantum Algorithms for Regularized Least Squares".
 - [Notes](../assets/documents/Adiabatic Quantum Computing and Optimization.pdf) on Adiabatic Quantum Computing and Optimization.
