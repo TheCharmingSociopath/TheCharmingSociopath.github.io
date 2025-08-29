@@ -4,14 +4,25 @@
 @import "variables",
         "404",
         "autumn",
-        "base",
         "blog",
-        "blog_new",
         "footer",
         "landing",
         "navbar",
         "projects",
         "timeline";
+
+
+// Set root font size for responsive scaling
+:root {
+  font-size: 16px; // Default for mobile
+
+  @media (min-width: 1200px) {
+    font-size: 24px; // Larger screens
+  }
+  @media (max-width: 1199px) {
+    font-size: 20px; // Medium screens
+  }
+}
 
 /* Default link color */
 a {
@@ -30,18 +41,18 @@ body {
   }
 
 .container {
-  font-size: 16px; // Default for mobile
+  // font-size: 16px; // Default for mobile
 
   @media (min-width: 1200px) { // Larger screens
     max-width: 75%;
-    font-size: 24px;
+    // font-size: 24px;
   }
   @media (max-width: 1199px) {
     max-width: 90%;  // More width on medium screens
-    font-size: 20px;
+    // font-size: 20px;
   }
   @media (max-width: 768px) {
     max-width: 95%;  // Almost full width on mobile
-    font-size: 14px;
+    // font-size: 14px;
   }
 }
