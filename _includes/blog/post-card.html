@@ -26,14 +26,9 @@
 {%- endif -%}
     
 <div class="my-3 wow animated fadeIn" data-wow-delay=".15s">
-  <a href="{{ post_url }}" class="post card {{ card_style }}">
-    <div class="card-body {{ text_style }}">
+  <a href="{{ post_url }}" class="project card text-dark">
+    <div class="card-body">
       <h3 class="card-title">{{ post.title }}</h3>
-      <p class="card-text">
-        {% for tag in post.tags %}
-        <span class="badge {{ badge_style }}">{{ tag }}</span>
-        {% endfor %}
-      </p>
       <p class="card-text">
         {%- if post.description -%}
         {{ post.description }}
@@ -41,10 +36,10 @@
         {{ post.content | truncatewords: 25, "<small><i>  read more...</i></small>" }}
         {%- endif -%}
       </p>
-    </div>
-    <div class="card-footer {{ text_style }}">
-      <span> Written: {{ post.date | date_to_long_string }} </span>
-      <span style="float: right;"> Last update: {{ post.updated | date_to_long_string }} </span>
+      {% for tag in post.tags %}
+        <span class="badge badge-pill text-primary border border-primary ml-1">{{ tag }}</span>
+      {% endfor %}
+      <span style="float: right;"> <small> Written: {{ post.date | date_to_long_string }}; Last update: {{ post.updated | date_to_long_string }} </small></span>
     </div>
   </a>
 </div>
