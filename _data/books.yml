@@ -2,16 +2,24 @@ meta:
   currently_reading:
     - title: "Cryptonomicon"
       author: Neal Stephenson
-    - title: "South of the Border, West of the Sun"
-      author: Haruki Murakami
-    - title: "Termination Shock"
-      author: Neal Stephenson
 books_read:
   # - title: ""
   #   author:
   #   stars: 
   #   comments:
 
+  - title: "Death's End"
+    author: "Cixin Liu (Author); Ken Liu (Translator)"
+    stars: 4
+    comments: Audiobook. I loved all 3 of these books, and would recommend reading. But the book 2 is definitely a favourite. Parts of the story in this one go too far, in my opinion. 
+  - title: "The Dark Forest"
+    author: "Cixin Liu (Author); Joel Martinsen (Translator)"
+    stars: 5
+    comments: Audiobook. Beautiful story, amazing translation, amazing narration. The world (and I mean the universe, or the galaxy) would be a pretty sad place if the dark forest theory were true; I would rather live in a world where there is easy exchange of ideas and culture. I don't think that it's true. If I were in a dark forest, I would definitely attempt communication and negotiation with those around me. But maybe I'm too naive. Luo Ji was certainly an interesting character. Another very interesting part about the book was the evolution of language, culture and people over the centuries. I was obcessed and hooked on to the audiobook, spent 3 days doing nothing except listen to books 2 and 3 of the triology. I'll definitely read a paperback at some point. 
+  - title: "Termination Shock"
+    author: Neal Stephenson
+    stars: 4
+    comments: Audiobook.
   - title: Dune
     author: Frank Herbert
     stars: 5
@@ -19,6 +27,7 @@ books_read:
   - title: Stories of Your Life and Others
     author: Ted Chiang
     stars: 5
+    comments: "He is definitely one of my favourite Sci-Fi authors of all time. A must read."
   - title: "Einstein: His Life and Universe"
     author: Walter Isaacson
     stars: 4
