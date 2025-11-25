@@ -8,9 +8,9 @@ I'm honoured to be advised by [Prof. Divesh Aggarwal](https://sites.google.com/s
 
 I did a joint bachelors and masters in CS from IIIT Hyderabad, affiliated with [CSTAR, IIIT Hyderabad](http://cstar.iiit.ac.in) and [CQST, IIIT Hyderabad](https://cqst.iiit.ac.in/) where I was fortunate to be advised by Prof. [Shantanav Chakraborty](https://sites.google.com/view/shchakra) and Prof [Indranil Chakrabarty](https://sites.google.com/view/indranilchakrabarty/). Here I was working on [Quantum Algorithms](https://quantum-journal.org/papers/q-2023-04-27-988/). 
 
-<span style="color:#cc0000">NEWS: </span> Our work [Mind the Gap? Not for SVP Hardness under ETH!](https://arxiv.org/abs/2504.02695) is up on arXiv.
+<span style="color:#cc0000">NEWS: </span> I'm visiting [Prof. Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/) at Bocconi University from Nov 2025 to January 2026. 
 
-<span style="color:#cc0000">NEWS: </span> Our work [On the practicality of quantum sieving algorithms for the shortest vector problem](https://arxiv.org/abs/2410.13759) has been accepted for a talk at QCTiP 2025.
+<span style="color:#cc0000">NEWS: </span> Our work [Mind the Gap? Not for SVP Hardness under ETH!](https://arxiv.org/abs/2504.02695) is up on arXiv.
 
 ### Research Interests
 
