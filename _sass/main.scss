@@ -56,3 +56,27 @@ body {
     // font-size: 14px;
   }
 }
+
+.content-with-image {
+  margin-bottom: 2rem;
+  overflow: auto;
+}
+
+.profile-image {
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+  .profile-image {
+    max-width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+}

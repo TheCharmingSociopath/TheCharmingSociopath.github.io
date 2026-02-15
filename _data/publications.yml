@@ -39,6 +39,7 @@
       url: https://luongo.pro
   where:
     - name: QCTIP 2025
+    - name: PQCrypto 2026
   arxiv: "https://arxiv.org/abs/2410.13759"
   year: 2024
 
