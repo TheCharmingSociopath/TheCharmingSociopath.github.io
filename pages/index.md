@@ -20,7 +20,9 @@ Recently I have been studying computational lattice problems.
 
 <span style="color:#cc0000">NEWS: </span> Our work [On the practicality of quantum sieving algorithms for the shortest vector problem](https://arxiv.org/abs/2410.13759) has been accepted for a talk at PQCrypto 2026.
 
-My CV (Updated Apr 2025) **[PDF](../assets/documents/cv.pdf)** 
+<span style="color:#cc0000">NEWS: </span> Between November 2025 and February 2026, I will be visiting [Prof. Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/) and his group at [CIFRA](https://rosenalon.github.io/cifra/), Bocconi University, Milan, Italy. 
+
+My CV (Updated Mar 2026) **[PDF](../assets/documents/cv.pdf)** 
 
 ### Personal
 

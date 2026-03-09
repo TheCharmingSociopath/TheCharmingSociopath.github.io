@@ -5,7 +5,7 @@
 #   abstract:
 
 - title: Quantum vs. classical complexity of learning total functions from oracles, and formalising learnability.
-  date: Friday, 21 March 2025, 2:00 PM
+  date: Friday, 21 March 2025
   where: Divesh's Group Seminars
   location: "COM1-03-19 - Meeting Rm 1 @ COM1"
   abstract: >
@@ -13,14 +13,14 @@
     This talk is roughly based on three papers: https://arxiv.org/abs/quant-ph/9805006 (FOCS'98), https://arxiv.org/abs/1001.0018 (IPL 2010) and https://arxiv.org/abs/quant-ph/0007036 (CCC2001). However, we will probably only see the first one with the gory details.
 
 - title: Lower bounds for lattice sieving via approximate nearest neighbour search.
-  date: 02 Feb, 2024, 12 noon.
+  date: 02 Feb, 2024
   where: Divesh's Group Seminars
   location: COM3-02-70
   abstract: >
     The shortest (non-zero) vector problem (SVP) on a lattice forms the basis for a majority of the proposed post quantum cryptosystems. Lattice sieving is currently the best known algorithm to solve SVP. Given the importance of the problem, it has received significant attention in the past two decades, leading to several (largely heuristic) improvements over the initial ASK Sieve (https://dl.acm.org/doi/10.1145/380752.380857). Most improvements rely on locality sensitive hashing to speed up the approximate nearest neighbour search (which forms the core subroutine of lattice sieving.) In this talk, we present lower bounds for lattice sieving (Laarhoven, Crypto 2021), and for the approximate nearest neighbour search problem (Rubinstein, STOC 2018). We highlight the possibility of a stronger lower bound on lattice sieving via Rubinstein'18.
 
 - title: Lattice sieving via quantum random walks.
-  date:  6 Oct, 2023, 1pm
+  date:  6 Oct, 2023
   where: Divesh's Group Seminars
   location: COM3-02-70
   abstract: >
@@ -28,7 +28,7 @@
     Ref: https://dl.acm.org/doi/10.5555/2884435.2884437, https://eprint.iacr.org/2021/570.
 
 - title: Lattice sieving for shortest vector problem via nearest neighbour search.
-  date: 29 Sept, 2023, 1pm.
+  date: 29 Sept, 2023
   where: Divesh's Group Seminars
   location: COM3-02-70
   abstract: >
