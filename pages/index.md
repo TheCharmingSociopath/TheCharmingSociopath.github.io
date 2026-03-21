@@ -6,7 +6,7 @@ permalink: /
 <div class="content-with-image">
   <span class="profile-figure">
     <img src="assets/images/pii.jpeg" alt="Aditya Morolia's Image" class="profile-image">
-    <figcaption class="profile-caption">Picture taken by <a href="https://souvikban.github.io">Souvik</a> at a random street in Berlin.</figcaption>
+    <p class="profile-caption">Picture taken by <a href="https://souvikban.github.io">Souvik</a> at a random street in Berlin.</p>
   </span>
   
   <div class="text-content" markdown="1">
