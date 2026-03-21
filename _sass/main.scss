@@ -62,18 +62,29 @@ body {
   overflow: auto;
 }
 
-.profile-image {
+.profile-figure {
   width: 300px;
   max-width: 100%;
-  border-radius: 8px;
   float: left;
-  margin-right: 2rem;
-  margin-bottom: 1rem;
+  margin: 0 2rem 1rem 0;
+}
+
+.profile-image {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.profile-caption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
 }
 
 /* Mobile layout */
 @media (max-width: 767px) {
-  .profile-image {
+  .profile-figure {
     max-width: 100%;
     float: none;
     margin-right: 0;
