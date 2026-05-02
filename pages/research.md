@@ -9,10 +9,59 @@ weight: 1
 
 {% assign pubs = site.data.publications %}
 
+<script>
+  function copyBibtex(bibtexId, buttonEl) {
+    var bibtexEl = document.getElementById(bibtexId);
+    if (!bibtexEl || !buttonEl) {
+      return;
+    }
+
+    var bibtexText = bibtexEl.textContent || bibtexEl.innerText || "";
+
+    var setCopiedState = function () {
+      if (!buttonEl.dataset.originalHtml) {
+        buttonEl.dataset.originalHtml = buttonEl.innerHTML;
+      }
+      buttonEl.innerHTML = '<i class="fa-solid fa-check" aria-hidden="true"></i>';
+      buttonEl.setAttribute("title", "Copied");
+      buttonEl.setAttribute("aria-label", "Copied");
+      window.setTimeout(function () {
+        buttonEl.innerHTML = buttonEl.dataset.originalHtml;
+        buttonEl.setAttribute("title", "Copy BibTeX");
+        buttonEl.setAttribute("aria-label", "Copy BibTeX");
+      }, 1200);
+    };
+
+    var fallbackCopy = function () {
+      var temp = document.createElement("textarea");
+      temp.value = bibtexText;
+      temp.setAttribute("readonly", "");
+      temp.style.position = "absolute";
+      temp.style.left = "-9999px";
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand("copy");
+      document.body.removeChild(temp);
+      setCopiedState();
+    };
+
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(bibtexText).then(function () {
+        setCopiedState();
+      }).catch(function () {
+        fallbackCopy();
+      });
+      return;
+    }
+
+    fallbackCopy();
+  }
+</script>
+
 <div>
     <ul style="margin-top: 30px;">
         {% for item in pubs %}
-        <li> <span style="color: black;"> {{ item.title }} </span></li>
+        <li style="margin-top: 30px;"> <span style="color: black;"> {{ item.title }} </span></li>
         <small> with
         {% for name in item.coauthors %}
         {% if name.url != blank %}
@@ -23,7 +72,15 @@ weight: 1
         {% endfor %}
         <br/>
         <span> {% if item.where != blank %} {% for venue in item.where %} <i class="fa fa-book"></i> {{ venue.name }} &emsp; {% endfor %} {% endif %}
-        <i class="fa fa-book"></i> <a href="{{ item.arxiv }}" target="_blank"> arXiv </a> </span>
+        {% if item.arxiv != blank %}<i class="fa fa-book"></i> <a href="{{ item.arxiv }}" target="_blank"> arXiv </a> &emsp; {% endif %}
+        {% if item.slides != blank %}<i class="fa fa-display"></i> <a href="{{ item.slides }}" target="_blank"> slides </a> {% endif %}</span>
+        {% if item.bibtex != blank %}
+        {% assign bibtex_id = item.id | default: forloop.index | slugify %}
+        <details><summary>BibTeX</summary>
+        <button type="button" onclick="copyBibtex('bibtex-{{ bibtex_id }}', this)" title="Copy BibTeX" aria-label="Copy BibTeX" style="font-size: 0.85rem; border: none; background: transparent; cursor: pointer; padding: 0 0.15rem;"><i class="fa-regular fa-copy" aria-hidden="true"></i></button>
+        <pre id="bibtex-{{ bibtex_id }}" style="white-space: pre-wrap;">{{ item.bibtex | strip | escape }}</pre>
+        </details>
+        {% endif %} 
         <details><summary>Abstract</summary> {{ item.abstract }} </details></small>
         {% endfor %}
     </ul>
@@ -39,7 +96,6 @@ weight: 1
 - My MS [thesis](../assets/documents/thesis.pdf), "Quantum Algorithms for Regularized Least Squares".
 - [Notes](../assets/documents/Adiabatic Quantum Computing and Optimization.pdf) on Adiabatic Quantum Computing and Optimization.
 - Some [notes](../assets/documents/Open_Quantum_Systems_Project.pdf) on analysing the master equation for qubit systems.
-- Some introductory [notes](../assets/documents/Quantum_Notes.pdf) on quantum computing for 2018.
 - A [video](https://youtu.be/zFyy2H_7oOk) introducing PCPs from a hardness of approximation perspective. You should probably watch Ryan O'Donnell's [lecture](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX).
 - [Modelling the stock market using game theory](../assets/documents/Modelling%20the%20stock%20market%20using%20game%20theory.pdf).
 
@@ -67,4 +123,3 @@ weight: 1
 ### Academic Service
 
 - 2025: Sub-reviewer for AQIS 2025; AsiaCrypt 2025; FSTTCS 2025; TCC 2025; Eurocrypt 2025.
-

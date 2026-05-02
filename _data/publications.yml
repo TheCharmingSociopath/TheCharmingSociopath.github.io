@@ -30,6 +30,17 @@
     - name: ICALP 2026
   arxiv: https://arxiv.org/abs/2504.02695
   year: 2025
+  bibtex: >
+    @misc{AGMZ25,
+      title={Mind the Gap? Not for SVP Hardness under ETH!}, 
+      author={Divesh Aggarwal and Rishav Gupta and Aditya Morolia and Chuanqi Zhang},
+      year={2026},
+      eprint={2504.02695},
+      archivePrefix={arXiv},
+      primaryClass={cs.CC},
+      url={https://arxiv.org/abs/2504.02695}, 
+    }
+
 
 - id: DGLM24
   title: "On the practicality of quantum sieving algorithms for the shortest vector problem"
@@ -47,6 +58,24 @@
     - name: PQCrypto 2026
   arxiv: "https://arxiv.org/abs/2410.13759"
   year: 2024
+  bibtex: > 
+    @InProceedings{DGLM24,
+    author="Doriguello, Joao F.
+    and Giapitzakis, George
+    and Luongo, Alessandro
+    and Morolia, Aditya",
+    editor="Bardet, Magali
+    and Niederhagen, Ruben",
+    title="On the Practicality of Quantum Sieving Algorithms for the Shortest Vector Problem",
+    booktitle="Post-Quantum Cryptography",
+    year="2026",
+    publisher="Springer Nature Switzerland",
+    address="Cham",
+    pages="3--36",
+    abstract="One of the main candidates of post-quantum cryptography is lattice-based cryptography. Its cryptographic security against quantum attackers is based on the worst-case hardness of lattice problems like the shortest vector problem (SVP), which asks to find the shortest non-zero vector in an integer lattice. Asymptotic quantum speedups for solving SVP are known and rely on Grover's search. However, to assess the security of lattice-based cryptography against these Grover-like quantum speedups, it is necessary to carry out a precise resource estimation beyond asymptotic scalings. In this work, we perform a careful analysis on the resources required to implement several sieving algorithms aided by Grover's search for dimensions of cryptographic interests. For such, we take into account fixed-point quantum arithmetic operations, non-asymptotic Grover's search, the cost of using quantum random access memory (QRAM), different physical architectures, and quantum error correction. We find that even under very optimistic assumptions like circuit-level noise of {\$}{\$}10^{\{}-5{\}}{\$}{\$}10-5, code cycles of 100 ns, reaction time of 1 {\$}{\$}{\backslash}upmu {\$}{\$}$\mu$s, and using state-of-the-art arithmetic circuits and quantum error-correction protocols, the best sieving algorithms require {\$}{\$}{\backslash}approx 10^{\{}13{\}}{\$}{\$}≈1013physical qubits and {\$}{\$}{\backslash}approx 10^{\{}31{\}}{\$}{\$}≈1031years to solve SVP on a lattice of dimension 400, which is roughly the dimension in which SVP is to be solved in order to break the minimally secure post-quantum cryptographic standards currently being proposed by NIST. We estimate that a 6-GHz-clock-rate single-core classical computer would take roughly the same amount of time to solve the same problem. We conclude that there is currently little to no quantum speedup in the dimensions of cryptographic interest and the possibility of realising a considerable quantum speedup using quantum sieving algorithms would require significant breakthroughs in theoretical protocols and hardware development.",
+    isbn="978-3-032-22695-2"
+    }
+  slides: ../assets/slides/pqcrypto.pdf
 
 
 - id: CMP23
@@ -64,3 +93,17 @@
       doi: https://doi.org/10.22331/q-2023-04-27-988
   arxiv: "https://arxiv.org/abs/2206.13143v3"
   year: 2022
+  bibtex: >
+    @article{CMP23,
+    doi = {10.22331/q-2023-04-27-988},
+    url = {https://doi.org/10.22331/q-2023-04-27-988},
+    title = {Quantum {R}egularized {L}east {S}quares},
+    author = {Chakraborty, Shantanav and Morolia, Aditya and Peduri, Anurudh},
+    journal = {{Quantum}},
+    issn = {2521-327X},
+    publisher = {{Verein zur F{\"{o}}rderung des Open Access Publizierens in den Quantenwissenschaften}},
+    volume = {7},
+    pages = {988},
+    month = apr,
+    year = {2023}
+    }

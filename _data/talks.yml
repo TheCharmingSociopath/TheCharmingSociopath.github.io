@@ -4,6 +4,52 @@
 #   location: 
 #   abstract:
 
+- title: "Pseudorandom Error-Correcting Codes"
+  date: 13 May 2026, 1:30 PM
+  where: Divesh's Group Seminars
+  location: COM3-02-60 (Seminar Room 21).
+  abstract: >
+    Pseudorandom error-correcting codes have recently been identified as a new cryptographic primitive, with applications to watermarking large language models and steganography. I present a construction of (zero bit) pseudorandom codes based on the hardness the planted XOR assumption and LPN, and from subexponential LPN (https://arxiv.org/abs/2402.09370).
+
+
+- title: "LoRA+: Efficient Low Rank Adaptation of Large Models"
+  date: April 2026
+  where: COM3, NUS
+  abstract: >
+    I present the LoRA+ algorithm for efficient finetuning of large language models (https://arxiv.org/abs/2402.12354).
+
+
+- title: Gaussian Boson Sampling
+  date: March 2026
+  where: CQT, NUS
+  abstract: I present the "Jiuzhang" quantum supremacy experiment on Gaussian Boson Sampling (https://www.science.org/doi/10.1126/science.abe8770).
+
+
+- title: Deterministic Hardness of SVP_p for all p > 2
+  date: November 2025
+  where: CIFRA, Bocconi University
+  abstract: >
+    I will present the recent result on the deterministic hardness of SVP_p for all p > 2 by Hair and Sahai (https://eprint.iacr.org/2025/2181.pdf). 
+
+
+- title: Quantum Computation and Lattice Problems
+  date: Friday, 10th October, 1 PM
+  where: Divesh's Group Seminars
+  location: COM3-02-70 (Meeting Room 25)
+  abstract: >
+    We present a quantum reduction from the unique shortest vector problem on a lattice to the Dihedral Coset Problem (Regev'03, https://arxiv.org/abs/cs/0304005v1). This is a quantum problem where one is given polynomially many states (samples) of the form (|0, x> + |1, x+d mod N>)/sqrt(2), where d \in [N] is fixed and x \in [N] is arbitrary across the samples; and the goal is to find d.
+    This problem is connected to the classical problem of finding a hidden subgroup of the dihedral group, from its coset samples.
+
+
+- title: Quantum Singular Value Transformation
+  date: Friday, 5th September, 1 PM
+  where: Divesh's Group Seminars
+  location: COM3-02-70 (Meeting Room 25)
+  abstract: >
+    Wouldn't it be nice if there was only one algorithm for us to study, that could solve all of our problems? We could then spend our time thinking about more useful things, like cryptography against string theory computers. Or perhaps read some nice fiction.
+    In this talk I'll tell you about why this is kinda true with the current state of quantum algorithms. I'll talk about quantum singular value transformation, an algorithm to apply polynomial transformations to the singular values of an input matrix, and possibly some applications. I'll follow "A Grand Unification of Quantum Algorithms", "Quantum singular value transformation and beyond: exponential improvements for quantum matrix arithmetics".
+
+
 - title: Quantum vs. classical complexity of learning total functions from oracles, and formalising learnability.
   date: Friday, 21 March 2025
   where: Divesh's Group Seminars
