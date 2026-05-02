@@ -110,7 +110,7 @@ weight: 1
         {% for item in talks %}
         <li> <span style="color: black;"> {{ item.title }} </span></li>
         <small>
-        <span> <i class="fa-solid fa-location-dot"></i> {{ item.where }} &emsp; <i class="fa fa-clock"></i> {{ item.date }} </span>
+        <span> <i class="fa-solid fa-location-dot"></i> {{ item.where }} &emsp; <i class="fa fa-clock"></i> {{ item.date }} {% if item.slides != blank %}&emsp; <i class="fa fa-display"></i> <a href="{{ item.slides }}" target="_blank"> slides </a>{% endif %}</span>
         <details><summary>Abstract</summary> {{ item.abstract }} </details></small>
         {% endfor %}
     </ul>

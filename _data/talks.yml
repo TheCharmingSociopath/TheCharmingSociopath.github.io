@@ -17,12 +17,14 @@
   where: COM3, NUS
   abstract: >
     I present the LoRA+ algorithm for efficient finetuning of large language models (https://arxiv.org/abs/2402.12354).
+  slides: ../assets/slides/LoRA+.pdf
 
 
 - title: Gaussian Boson Sampling
   date: March 2026
   where: CQT, NUS
   abstract: I present the "Jiuzhang" quantum supremacy experiment on Gaussian Boson Sampling (https://www.science.org/doi/10.1126/science.abe8770).
+  slides: ../assets/slides/GBS.pdf
 
 
 - title: Deterministic Hardness of SVP_p for all p > 2
